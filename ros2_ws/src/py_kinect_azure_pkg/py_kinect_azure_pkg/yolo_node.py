@@ -5,8 +5,8 @@ from cv_bridge import CvBridge
 import cv2
 from std_msgs.msg import String
 import pykinect_azure as pykinect
-from pykinect_azure import K4A_CALIBRATION_TYPE_COLOR, k4a_float2_t
-from ultralytics import YOLO
+import requests
+import numpy as np
 
 class KinectYoloNode(Node):
     def __init__(self):
@@ -29,9 +29,8 @@ class KinectYoloNode(Node):
         self.detections_publisher = self.create_publisher(Image, 'yolo_detections_image', 10)
         self.detections_info_publisher = self.create_publisher(String, 'yolo_detections_info', 10)
 
-        # Inicializar YOLOv8 con el modelo entrenado
-        self.model = YOLO('/home/alejandro/Downloads/runs/detect/train2/weights/best.pt')  # Cambia esta ruta según tu archivo
-
+        # URL del endpoint de inferencia de Roboflow y tu API key
+        self.roboflow_url = "https://detect.roboflow.com/3d_identifier_v5/1?api_key=ObAq2LOm6KmsxcEXtSqm"  
         # Temporizador para capturar imágenes periódicamente
         self.timer = self.create_timer(0.1, self.process_images)
 
@@ -52,32 +51,45 @@ class KinectYoloNode(Node):
         # Convertir la imagen de color de Azure Kinect a formato OpenCV (BGR)
         color_image_bgr = cv2.cvtColor(color_image, cv2.COLOR_BGRA2BGR)
 
-        # Realizar la detección de objetos con YOLOv8
-        results = self.model(color_image_bgr)
+        # Codificar la imagen a formato JPEG para enviar a Roboflow
+        _, img_encoded = cv2.imencode('.jpg', color_image_bgr)
+        img_bytes = img_encoded.tobytes()
 
-        # Dibujar las cajas de detección en la imagen
-        detections = ""
-        for result in results:
-            for obj in result.boxes:
-                # Dibujar las cajas en la imagen
-                x1, y1, x2, y2 = map(int, obj.xyxy[0])  # Convertir coordenadas a enteros
+        # Realizar la solicitud de inferencia a Roboflow
+        try:
+            response = requests.post(self.roboflow_url, files={"file": img_bytes})
+            response.raise_for_status()
+            predictions = response.json()
+
+            # Dibujar las cajas de detección en la imagen
+            detections = ""
+            for obj in predictions["predictions"]:
+                x, y, w, h = obj["x"], obj["y"], obj["width"], obj["height"]
+                x1, y1 = int(x - w / 2), int(y - h / 2)
+                x2, y2 = int(x + w / 2), int(y + h / 2)
+                label = obj["class"]
+                confidence = obj["confidence"]
+
+                # Dibujar la caja de detección y etiqueta en la imagen
                 cv2.rectangle(color_image_bgr, (x1, y1), (x2, y2), (0, 255, 0), 2)
-                label = f"{obj.cls} {obj.conf:.2f}"
-                cv2.putText(color_image_bgr, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
+                cv2.putText(color_image_bgr, f"{label} {confidence:.2f}", (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
                 
-                detections += f"Objeto: {obj.cls}, Confianza: {obj.conf}, Coordenadas: {x1}, {y1}, {x2}, {y2}\n"
+                detections += f"Objeto: {label}, Confianza: {confidence:.2f}, Coordenadas: {x1}, {y1}, {x2}, {y2}\n"
 
-        # Publicar la imagen con las detecciones superpuestas
-        detection_image_msg = self.bridge.cv2_to_imgmsg(color_image_bgr, encoding="bgr8")
-        self.detections_publisher.publish(detection_image_msg)
+            # Publicar la imagen con las detecciones superpuestas
+            detection_image_msg = self.bridge.cv2_to_imgmsg(color_image_bgr, encoding="bgr8")
+            self.detections_publisher.publish(detection_image_msg)
 
-        # Publicar las detecciones en formato de texto
-        self.detections_info_publisher.publish(String(data=detections))
-        self.get_logger().info('Detecciones publicadas')
+            # Publicar las detecciones en formato de texto
+            self.detections_info_publisher.publish(String(data=detections))
+            self.get_logger().info('Detecciones publicadas')
 
-        # Publicar la imagen original sin detecciones (opcional)
-        color_image_msg = self.bridge.cv2_to_imgmsg(color_image, encoding="bgra8")
-        self.color_image_publisher.publish(color_image_msg)
+            # Publicar la imagen original sin detecciones (opcional)
+            color_image_msg = self.bridge.cv2_to_imgmsg(color_image, encoding="bgra8")
+            self.color_image_publisher.publish(color_image_msg)
+
+        except requests.exceptions.RequestException as e:
+            self.get_logger().error(f"Error de inferencia en Roboflow: {e}")
 
 def main(args=None):
     rclpy.init(args=args)
