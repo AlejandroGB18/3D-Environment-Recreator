@@ -29,7 +29,7 @@ class KinectYoloNode(Node):
         self.detections_publisher = self.create_publisher(Image, 'yolo_detections_image', 10)
         self.detections_info_publisher = self.create_publisher(String, 'yolo_detections_info', 10)
 
-        # URL del endpoint de inferencia de Roboflow y tu API key
+        # URL del endpoint de inferencia de Roboflow y API key
         self.roboflow_url = "https://detect.roboflow.com/3d_identifier_v5/1?api_key=ObAq2LOm6KmsxcEXtSqm"  
         # Temporizador para capturar imágenes periódicamente
         self.timer = self.create_timer(0.1, self.process_images)
