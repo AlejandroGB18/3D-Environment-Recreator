@@ -1,0 +1,11 @@
+[console_scripts]
+3D_node = py_kinect_azure_pkg.first_3D_node:main
+depth_image_node = py_kinect_azure_pkg.depth_image_node:main
+env_node = py_kinect_azure_pkg.env_node:main
+kinect_image_node = py_kinect_azure_pkg.kinect_image_node:main
+kinect_node = py_kinect_azure_pkg.kinect_node:main
+motion_detection = py_kinect_azure_pkg.test_people:main
+point_cloud_node = py_kinect_azure_pkg.point_cloud_node:main
+point_cloud_node_2 = py_kinect_azure_pkg.kinect_point_cloud_node:main
+point_cloud_node_2_1 = py_kinect_azure_pkg.kpc_node_2:main
+yolo_node = py_kinect_azure_pkg.yolo_node:main

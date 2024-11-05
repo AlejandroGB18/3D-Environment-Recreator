@@ -1,0 +1,28 @@
+[0.575s] Invoking command in '/home/alejandro/ros2_ws/build/py_kinect_azure_pkg': PYTHONPATH=/home/alejandro/ros2_ws/build/py_kinect_azure_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build --no-deps symlink_data --force
+[0.809s] running develop
+[0.810s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.810s]   warnings.warn(
+[0.982s] running egg_info
+[0.982s] writing py_kinect_azure_pkg.egg-info/PKG-INFO
+[0.982s] writing dependency_links to py_kinect_azure_pkg.egg-info/dependency_links.txt
+[0.982s] writing entry points to py_kinect_azure_pkg.egg-info/entry_points.txt
+[0.982s] writing requirements to py_kinect_azure_pkg.egg-info/requires.txt
+[0.982s] writing top-level names to py_kinect_azure_pkg.egg-info/top_level.txt
+[0.984s] reading manifest file 'py_kinect_azure_pkg.egg-info/SOURCES.txt'
+[0.985s] writing manifest file 'py_kinect_azure_pkg.egg-info/SOURCES.txt'
+[0.986s] running build_ext
+[0.986s] Creating /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py-kinect-azure-pkg.egg-link (link to .)
+[0.987s] Installing 3D_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[0.987s] Installing depth_image_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[0.987s] Installing env_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[0.987s] Installing kinect_image_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[0.987s] Installing kinect_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[0.987s] Installing point_cloud_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[0.987s] Installing point_cloud_node_2 script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[0.987s] Installing point_cloud_node_2_1 script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[0.987s] 
+[0.987s] Installed /home/alejandro/ros2_ws/build/py_kinect_azure_pkg
+[0.987s] running symlink_data
+[0.988s] symbolically linking /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/resource/py_kinect_azure_pkg -> /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/ament_index/resource_index/packages
+[0.988s] symbolically linking /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/package.xml -> /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/py_kinect_azure_pkg
+[1.009s] Invoked command in '/home/alejandro/ros2_ws/build/py_kinect_azure_pkg' returned '0': PYTHONPATH=/home/alejandro/ros2_ws/build/py_kinect_azure_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build --no-deps symlink_data --force
