@@ -18,8 +18,17 @@ class KinectYoloNode(Node):
         # Initialize subscription to shared color image
         self.create_subscription(Image, '/shared/color_image', self.image_callback, 10)
 
+<<<<<<< HEAD
         # Roboflow inference setup
         self.roboflow_url = "https://detect.roboflow.com/3d_identifier_v5/1?api_key=ObAq2LOm6KmsxcEXtSqm"
+=======
+        # URL del endpoint de inferencia de Roboflow y API key
+        self.roboflow_url = "https://detect.roboflow.com/3d_identifier_v5/1?api_key=ObAq2LOm6KmsxcEXtSqm"  
+        # Temporizador para capturar imágenes periódicamente
+        self.timer = self.create_timer(0.1, self.process_images)
+
+        # CV Bridge para convertir entre OpenCV y ROS
+>>>>>>> 164ff8850836ac9dfc1ac010be07595eb8107ec3
         self.bridge = CvBridge()
 
     def image_callback(self, msg):
