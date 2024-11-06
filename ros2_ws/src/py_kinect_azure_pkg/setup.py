@@ -29,7 +29,8 @@ setup(
         '3D_node = py_kinect_azure_pkg.first_3D_node:main',
         'env_node = py_kinect_azure_pkg.env_node:main',
         'yolo_node = py_kinect_azure_pkg.yolo_node:main',
-        'motion_detection = py_kinect_azure_pkg.test_people:main'
+        'motion_detection = py_kinect_azure_pkg.test_people:main',
+        'manager_node = py_kinect_azure_pkg.manager_node:main'
         ],
     },
 )

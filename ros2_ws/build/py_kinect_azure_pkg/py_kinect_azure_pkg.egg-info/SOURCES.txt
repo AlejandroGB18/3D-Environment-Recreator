@@ -17,6 +17,7 @@ py_kinect_azure_pkg/kinect_image_node.py
 py_kinect_azure_pkg/kinect_node.py
 py_kinect_azure_pkg/kinect_point_cloud_node.py
 py_kinect_azure_pkg/kpc_node_2.py
+py_kinect_azure_pkg/manager_node.py
 py_kinect_azure_pkg/point_cloud_node.py
 py_kinect_azure_pkg/test_people.py
 py_kinect_azure_pkg/yolo_node.py

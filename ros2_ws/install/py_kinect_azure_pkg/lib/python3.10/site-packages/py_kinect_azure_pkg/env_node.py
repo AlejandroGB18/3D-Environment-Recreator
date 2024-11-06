@@ -1,155 +1,110 @@
 import rclpy
 from rclpy.node import Node
-from sensor_msgs.msg import PointCloud2, PointField
+from sensor_msgs.msg import Image, PointCloud2, PointField
 from std_msgs.msg import Header
+from cv_bridge import CvBridge
 import numpy as np
-import pykinect_azure as pykinect
-import open3d as o3d
+import struct
 from geometry_msgs.msg import TransformStamped
 import tf2_ros
-import struct
 import matplotlib.pyplot as plt
 
-class AzureKinectPointCloudNode(Node):
+class KinectEnvNode(Node):
     def __init__(self):
-        super().__init__('azure_kinect_point_cloud_node')
+        super().__init__('kinect_env_node')
 
-        # Inicializa la librería PyKinectAzure
-        pykinect.initialize_libraries()
-        self.get_logger().info("PyKinectAzure libraries initialized.")
-
-        # Configuración de la cámara
-        device_config = pykinect.default_configuration
-        device_config.color_resolution = pykinect.K4A_COLOR_RESOLUTION_720P
-        device_config.depth_mode = pykinect.K4A_DEPTH_MODE_WFOV_2X2BINNED
-
-        # Iniciar el dispositivo
-        self.device = pykinect.start_device(config=device_config)
-        self.get_logger().info("Azure Kinect device started.")
-
-        # Crear el publicador de PointCloud2
+        # ROS publishers
         self.point_cloud_publisher = self.create_publisher(PointCloud2, 'scene_point_cloud', 10)
-        self.get_logger().info("PointCloud2 publisher created.")
-
-        # Crear un TF broadcaster
         self.tf_broadcaster = tf2_ros.TransformBroadcaster(self)
-        self.get_logger().info("TF broadcaster created.")
 
-        # Timer para capturar y publicar datos de la nube de puntos
-        self.timer = self.create_timer(0.5, self.publish_point_cloud)
+        # ROS subscribers to receive shared color and depth images
+        self.create_subscription(Image, '/shared/color_image', self.color_image_callback, 10)
+        self.create_subscription(Image, '/shared/depth_image', self.depth_image_callback, 10)
 
-        # Timer para publicar la transformación de la cámara
-        self.tf_timer = self.create_timer(0.1, self.publish_camera_transform)
+        # Image and depth processing bridge
+        self.bridge = CvBridge()
+
+        # Initialize variables for storing images
+        self.color_image = None
+        self.depth_image = None
+
+        # Timer for publishing point cloud and transformation data
+        self.timer = self.create_timer(0.1, self.publish_point_cloud)
+
+    def color_image_callback(self, msg):
+        # Convert the ROS Image message to an OpenCV image
+        self.color_image = self.bridge.imgmsg_to_cv2(msg, 'bgr8')
+        self.get_logger().info("Color image received")
+
+    def depth_image_callback(self, msg):
+        # Convert the ROS Image message to an OpenCV image (depth)
+        self.depth_image = self.bridge.imgmsg_to_cv2(msg, 'mono16')
+        self.get_logger().info("Depth image received")
 
     def publish_camera_transform(self):
-        # Crear una transformación desde el frame 'world' al frame 'camera_link'
+        # Create a transformation from the 'world' frame to the 'camera_link' frame
         t = TransformStamped()
         t.header.stamp = self.get_clock().now().to_msg()
-        t.header.frame_id = 'world'  # Frame fijo
-        t.child_frame_id = 'camera_link'  # Frame de la cámara
-
-        # Ajustar la posición y orientación de la cámara
+        t.header.frame_id = 'world'
+        t.child_frame_id = 'camera_link'
+        
+        # Set camera position and orientation
         t.transform.translation.x = 0.0
         t.transform.translation.y = 0.0
-        t.transform.translation.z = 0.5  # Colocamos la cámara 0.5 metros por encima del plano XY
+        t.transform.translation.z = 1.0  # Positioning camera 1 meter above the plane for a better field of view
 
-        # Rotar la cámara para apuntar al plano XY correctamente (ajuste importante)
-        t.transform.rotation.x = -0.707  # 45 grados hacia abajo en el eje X
+        # Adjust quaternion for the camera to face directly along the Z-axis
+        # with a downward orientation to align height on Z+ and ground on Z=0
+        t.transform.rotation.x = 0.707  # 45 degrees rotation to face downward
         t.transform.rotation.y = 0.0
         t.transform.rotation.z = 0.0
-        t.transform.rotation.w = 0.707  # Ajuste con quaternion
+        t.transform.rotation.w = 0.707
 
-        # Publicar la transformación
+        # Broadcast the transform
         self.tf_broadcaster.sendTransform(t)
         self.get_logger().info("Camera transform published.")
 
     def publish_point_cloud(self):
-        # Capturar los datos de profundidad y color desde Kinect
-        capture = self.device.update()
-        ret_depth, depth_image = capture.get_depth_image()
-        ret_color, color_image = capture.get_color_image()
-
-        if not ret_depth:
-            self.get_logger().warn("Failed to capture depth image.")
+        if self.color_image is None or self.depth_image is None:
+            self.get_logger().warn("Waiting for color and depth images...")
             return
 
-        if not ret_color:
-            self.get_logger().warn("Failed to capture color image.")
-            return
+        # Publish the transformation
+        self.publish_camera_transform()
 
-        # Convertir la imagen de profundidad a nube de puntos
-        self.get_logger().info("Converting depth image to point cloud.")
-        point_cloud = self.create_point_cloud_from_depth_and_color(depth_image, color_image)
-
-        # Publicar la nube de puntos
-        self.publish_ros_point_cloud(point_cloud)
-        self.get_logger().info("Point cloud published.")
-
-
-    def create_point_cloud_from_depth_and_color(self, depth_image, color_image):
-        height, width = depth_image.shape
+        # Generate point cloud from depth and color images
+        height, width = self.depth_image.shape
         points = []
         colors = []
 
-        min_z, max_z = None, None
+        # Intrinsic camera parameters (adjust for Azure Kinect)
+        fx = 600.0  # Focal length x
+        fy = 600.0  # Focal length y
+        cx = width / 2
+        cy = height / 2
+        scale_factor = 0.1  # Depth scale to meters
 
-        # Primero, calcular los límites de z (la altura)
+        # Iterate through the depth image to create the point cloud
         for y in range(height):
             for x in range(width):
-                depth_value = depth_image[y, x]
-                if depth_value == 0:
+                depth_value = self.depth_image[y, x]
+                if depth_value == 0:  # Skip invalid depth points
                     continue
 
-                point_2d = pykinect.k4a_float2_t((x, y))
-                point_3d = self.device.calibration.convert_2d_to_3d(
-                    point_2d, depth_value, pykinect.K4A_CALIBRATION_TYPE_DEPTH, pykinect.K4A_CALIBRATION_TYPE_DEPTH)
+                # Convert pixel (x, y) and depth to 3D point in camera space
+                z3d = depth_value * scale_factor  # Convert depth to meters
+                x3d = -(x - cx) * z3d / fx  # Negate x-axis to correct mirroring
+                y3d = (y - cy) * z3d / fy
 
-                if min_z is None or point_3d.xyz.z < min_z:
-                    min_z = point_3d.xyz.z
-                if max_z is None or point_3d.xyz.z > max_z:
-                    max_z = point_3d.xyz.z
+                # Append points/colors to lists
+                points.append([x3d, -y3d, z3d])
+                colors.append(self.color_image[y, x][:3] / 255.0)  # Normalize color values
 
-        # Crear el punto 3D y el color correspondiente
-        for y in range(height):
-            for x in range(width):
-                depth_value = depth_image[y, x]
-                if depth_value == 0:
-                    continue
+        # Convert lists to arrays for PointCloud2 message
+        points = np.array(points, dtype=np.float32)
+        colors = np.array(colors, dtype=np.float32)
 
-                point_2d = pykinect.k4a_float2_t((x, y))
-                point_3d = self.device.calibration.convert_2d_to_3d(
-                    point_2d, depth_value, pykinect.K4A_CALIBRATION_TYPE_DEPTH, pykinect.K4A_CALIBRATION_TYPE_DEPTH)
-
-                points.append([point_3d.xyz.x, point_3d.xyz.y, point_3d.xyz.z])
-
-                # Escalar z al rango [0, 1] para mapear colores
-                z_scaled = (point_3d.xyz.z - min_z) / (max_z - min_z)
-            
-                # Mapear a una paleta de colores (usamos la paleta jet)
-                cmap = plt.get_cmap('jet')
-                rgba_color = cmap(z_scaled)
-
-                # Añadir el color RGB (ignoramos el canal alfa)
-                colors.append([rgba_color[0], rgba_color[1], rgba_color[2]])
-
-        # Crear la nube de puntos Open3D
-        cloud = o3d.geometry.PointCloud()
-        cloud.points = o3d.utility.Vector3dVector(points)
-        cloud.colors = o3d.utility.Vector3dVector(colors)
-
-        return cloud
-
-
-    def publish_ros_point_cloud(self, point_cloud):
-        # Usar la estructura PointCloud2 de ROS 2 y los campos del mensaje
-        header = Header()
-        header.stamp = self.get_clock().now().to_msg()
-        header.frame_id = 'camera_link'  # Publicamos la nube de puntos en el frame de la cámara
-
-        # Extraer los puntos y colores de Open3D PointCloud
-        points = np.asarray(point_cloud.points)
-        colors = np.asarray(point_cloud.colors)  # Extraer el color
-
+        # Prepare the point cloud data for ROS PointCloud2 message
         fields = [
             PointField(name='x', offset=0, datatype=PointField.FLOAT32, count=1),
             PointField(name='y', offset=4, datatype=PointField.FLOAT32, count=1),
@@ -159,32 +114,40 @@ class AzureKinectPointCloudNode(Node):
             PointField(name='b', offset=14, datatype=PointField.UINT8, count=1)
         ]
 
-        # Empaquetar los puntos y colores en formato bytes
+        # Pack points and colors for PointCloud2 message
         point_cloud_data = []
         for point, color in zip(points, colors):
             r, g, b = (color * 255).astype(np.uint8)
             point_cloud_data.append(struct.pack('fffBBB', point[0], point[1], point[2], r, g, b))
 
-        point_cloud_msg = PointCloud2(
+        # Create PointCloud2 message
+        header = Header()
+        header.stamp = self.get_clock().now().to_msg()
+        header.frame_id = 'camera_link'
+
+        cloud_msg = PointCloud2(
             header=header,
             height=1,
-            width=points.shape[0],
+            width=len(points),
             fields=fields,
             is_bigendian=False,
-            point_step=15,  # 12 para xyz, 3 para rgb
-            row_step=15 * points.shape[0],
+            point_step=15,
+            row_step=15 * len(points),
             data=b''.join(point_cloud_data),
             is_dense=True
         )
 
-        # Publicar la nube de puntos
-        self.point_cloud_publisher.publish(point_cloud_msg)
+        # Publish the point cloud
+        self.point_cloud_publisher.publish(cloud_msg)
+        self.get_logger().info("Point cloud published")
 
 def main(args=None):
     rclpy.init(args=args)
-    node = AzureKinectPointCloudNode()
-    rclpy.spin(node)
-    node.destroy_node()
+    kinect_env_node = KinectEnvNode()
+    rclpy.spin(kinect_env_node)
+
+    # Shutdown
+    kinect_env_node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
