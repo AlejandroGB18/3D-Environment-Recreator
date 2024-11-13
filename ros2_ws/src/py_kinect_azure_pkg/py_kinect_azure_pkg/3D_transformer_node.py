@@ -8,12 +8,11 @@ class SimEnvNode(Node):
     def __init__(self):
         super().__init__('sim_env_node')
 
-        # Client for spawning models in Gazebo
+        # Clients for spawning and deleting models in Gazebo
         self.spawn_client = self.create_client(SpawnEntity, '/spawn_entity')
         while not self.spawn_client.wait_for_service(timeout_sec=5.0):
             self.get_logger().warn("Waiting for Gazebo spawn service...")
 
-        # Client for deleting models in Gazebo
         self.delete_client = self.create_client(DeleteEntity, '/delete_entity')
         while not self.delete_client.wait_for_service(timeout_sec=5.0):
             self.get_logger().warn("Waiting for Gazebo delete service...")
@@ -21,95 +20,163 @@ class SimEnvNode(Node):
         # Subscription to object detection topic
         self.create_subscription(String, 'yolo_detections', self.process_detections, 10)
         
-        # Track the spawned object state and last detection state
-        self.object_spawned = False
-        self.last_detected = False  # Flag to remember the last detection state
+        # Tracking the detection state and spawned status for each object
+        self.objects = {
+            "coffee": {"spawned": False, "last_detected": False},
+            "apple": {"spawned": False, "last_detected": False},
+            "can": {"spawned": False, "last_detected": False}
+        }
 
     def process_detections(self, msg):
-        # Parse detection state based on message content
-        detected = 'Coffee' in msg.data
-        self.get_logger().info(f"Processing detection message: detected={detected}, last_detected={self.last_detected}, object_spawned={self.object_spawned}")
+        # Iterate over each object and check if it is detected
+        for obj in self.objects:
+            detected = obj.capitalize() in msg.data
+            state = self.objects[obj]
+            self.get_logger().info(f"Processing {obj}: detected={detected}, last_detected={state['last_detected']}, spawned={state['spawned']}")
 
-        # If we detect "Coffee" and it hasn't been spawned, spawn it
-        if detected and not self.object_spawned:
-            self.get_logger().info("Detected 'Coffee' - Spawning in Gazebo.")
-            self.spawn_coffee_in_gazebo()
-            self.last_detected = True  # Mark detection as active
-        # If no detection and object is spawned, then remove it
-        elif not detected and self.object_spawned:
-            self.get_logger().info("No 'Coffee' detected - Removing from Gazebo.")
-            self.remove_coffee_from_gazebo()
-            self.last_detected = False  # Mark detection as inactive
+            # Spawn the object if detected and not yet spawned
+            if detected and not state["spawned"]:
+                self.get_logger().info(f"Detected '{obj.capitalize()}' - Spawning in Gazebo.")
+                self.spawn_object_in_gazebo(obj)
+                state["last_detected"] = True
+            # Remove the object if not detected and it was previously spawned
+            elif not detected and state["spawned"]:
+                self.get_logger().info(f"No '{obj.capitalize()}' detected - Removing from Gazebo.")
+                self.remove_object_from_gazebo(obj)
+                state["last_detected"] = False
 
-    def spawn_coffee_in_gazebo(self):
+    def spawn_object_in_gazebo(self, obj_name):
         request = SpawnEntity.Request()
-        request.name = "coffee"
-        request.xml = """
-            <?xml version="1.0" ?>
-            <sdf version="1.6">
-              <model name="coffee">
-                <static>false</static>
-                <link name="link">
-                  <visual name="visual">
-                    <geometry>
-                      <mesh>
-                        <uri>model://coffee/meshes/Coffee.dae</uri>
-                        <scale>1 1 1</scale> 
-                      </mesh>
-                    </geometry>
-                  </visual>
-                  <collision name="collision">
-                    <geometry>
-                      <box>
-                        <size>0.1 0.1 0.1</size> 
-                      </box>
-                    </geometry>
-                  </collision>
-                </link>
-              </model>
-            </sdf>
-        """
+        request.name = obj_name
+        request.xml = self.get_sdf_for_object(obj_name)
         request.robot_namespace = "sim_env_node"
+        request.initial_pose = self.get_pose_for_object(obj_name)
 
-        # Position for the Coffee model on the table
-        request.initial_pose = Pose()
-        request.initial_pose.position.x = 1.0
-        request.initial_pose.position.y = 0.5
-        request.initial_pose.position.z = 0.0
-
-        self.get_logger().info("Sending spawn request to Gazebo...")
+        self.get_logger().info(f"Sending spawn request for {obj_name} to Gazebo...")
         future = self.spawn_client.call_async(request)
-        future.add_done_callback(self.spawn_response_callback)
+        future.add_done_callback(lambda f: self.spawn_response_callback(f, obj_name))
 
-    def spawn_response_callback(self, future):
+    def spawn_response_callback(self, future, obj_name):
         try:
             response = future.result()
             if response.success:
-                self.get_logger().info("Coffee model spawned in Gazebo.")
-                self.object_spawned = True  # Mark object as spawned
+                self.get_logger().info(f"{obj_name.capitalize()} model spawned in Gazebo.")
+                self.objects[obj_name]["spawned"] = True
             else:
-                self.get_logger().error("Failed to spawn Coffee model in Gazebo.")
+                self.get_logger().error(f"Failed to spawn {obj_name.capitalize()} model in Gazebo.")
         except Exception as e:
             self.get_logger().error(f"Spawn request failed: {e}")
 
-    def remove_coffee_from_gazebo(self):
+    def remove_object_from_gazebo(self, obj_name):
         request = DeleteEntity.Request()
-        request.name = "coffee"
+        request.name = obj_name
 
-        self.get_logger().info("Sending delete request to Gazebo...")
+        self.get_logger().info(f"Sending delete request for {obj_name} to Gazebo...")
         future = self.delete_client.call_async(request)
-        future.add_done_callback(self.delete_response_callback)
+        future.add_done_callback(lambda f: self.delete_response_callback(f, obj_name))
 
-    def delete_response_callback(self, future):
+    def delete_response_callback(self, future, obj_name):
         try:
             response = future.result()
             if response.success:
-                self.get_logger().info("Coffee model removed from Gazebo.")
-                self.object_spawned = False  # Mark object as removed
+                self.get_logger().info(f"{obj_name.capitalize()} model removed from Gazebo.")
+                self.objects[obj_name]["spawned"] = False
             else:
-                self.get_logger().error("Failed to remove Coffee model from Gazebo.")
+                self.get_logger().error(f"Failed to remove {obj_name.capitalize()} model from Gazebo.")
         except Exception as e:
             self.get_logger().error(f"Delete request failed: {e}")
+
+    def get_sdf_for_object(self, obj_name):
+        # Returns the SDF content for each object
+        sdf_files = {
+            "coffee": """
+                <?xml version="1.0" ?>
+                <sdf version="1.6">
+                  <model name="coffee">
+                    <static>false</static>
+                    <link name="link">
+                      <visual name="visual">
+                        <geometry>
+                          <mesh>
+                            <uri>model://coffee/meshes/Coffee.dae</uri>
+                            <scale>1 1 1</scale> 
+                          </mesh>
+                        </geometry>
+                      </visual>
+                      <collision name="collision">
+                        <geometry>
+                          <box>
+                            <size>0.1 0.1 0.1</size> 
+                          </box>
+                        </geometry>
+                      </collision>
+                    </link>
+                  </model>
+                </sdf>
+            """,
+            "apple": """
+                <?xml version="1.0" ?>
+                <sdf version="1.6">
+                  <model name="apple">
+                    <static>false</static>
+                    <link name="link">
+                      <visual name="visual">
+                        <geometry>
+                          <mesh>
+                            <uri>model://apple/meshes/Apple.dae</uri>
+                            <scale>1 1 1</scale> 
+                          </mesh>
+                        </geometry>
+                      </visual>
+                      <collision name="collision">
+                        <geometry>
+                          <box>
+                            <size>0.1 0.1 0.1</size> 
+                          </box>
+                        </geometry>
+                      </collision>
+                    </link>
+                  </model>
+                </sdf>
+            """,
+            "can": """
+                <?xml version="1.0" ?>
+                <sdf version="1.6">
+                  <model name="can">
+                    <static>false</static>
+                    <link name="link">
+                      <visual name="visual">
+                        <geometry>
+                          <mesh>
+                            <uri>model://can/meshes/Can.dae</uri>
+                            <scale>1 1 1</scale> 
+                          </mesh>
+                        </geometry>
+                      </visual>
+                      <collision name="collision">
+                        <geometry>
+                          <box>
+                            <size>0.1 0.1 0.1</size> 
+                          </box>
+                        </geometry>
+                      </collision>
+                    </link>
+                  </model>
+                </sdf>
+            """
+        }
+        return sdf_files.get(obj_name, "")
+
+    def get_pose_for_object(self, obj_name):
+        # Returns the spawn position for each object
+        positions = {
+            "coffee": (1.0, 0.5, 0.0),
+            "apple": (1.2, 0.5, 0.0),
+            "can": (1.4, 0.5, 0.0)
+        }
+        pose = Pose()
+        pose.position.x, pose.position.y, pose.position.z = positions.get(obj_name, (0, 0, 0))
+        return pose
 
 def main(args=None):
     rclpy.init(args=args)

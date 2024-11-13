@@ -11,6 +11,7 @@ setup.py
 ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/zip-safe
 launch/spawn_with_empty_world.launch.py
 py_kinect_azure_pkg/3D_transformer_node.py
+py_kinect_azure_pkg/3d.py
 py_kinect_azure_pkg/3d_node.py
 py_kinect_azure_pkg/__init__.py
 py_kinect_azure_pkg/depth_image_node.py

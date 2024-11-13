@@ -6,6 +6,7 @@
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/first_3D_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/test_people.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/kinect_point_cloud_node.py
+/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/3d.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/3D_transformer_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/kinect_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/manager_node.py
@@ -20,6 +21,7 @@
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/first_3D_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/test_people.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/kinect_point_cloud_node.cpython-310.pyc
+/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/3d.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/3D_transformer_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/kinect_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/manager_node.cpython-310.pyc

@@ -43,7 +43,7 @@ class KinectYoloNode(Node):
                 cv2.rectangle(color_image_bgr, (x1, y1), (x2, y2), (0, 255, 0), 2)
                 cv2.putText(color_image_bgr, f"{label} {confidence:.2f}", (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
                 detections += f"Object: {label}, Confidence: {confidence:.2f}, Coordinates: {x1}, {y1}, {x2}, {y2}\n"
-                detect = f'{label}'
+                detect = f"{label(0)},{label(1)}"
 
         detection_image_msg = self.bridge.cv2_to_imgmsg(color_image_bgr, encoding="bgr8")
         self.detections_publisher.publish(detection_image_msg)
