@@ -2,9 +2,11 @@
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/depth_image_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/env_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/point_cloud_node.py
+/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/3d_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/first_3D_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/test_people.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/kinect_point_cloud_node.py
+/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/3D_transformer_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/kinect_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/manager_node.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/kinect_image_node.py
@@ -14,9 +16,11 @@
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/depth_image_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/env_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/point_cloud_node.cpython-310.pyc
+/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/3d_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/first_3D_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/test_people.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/kinect_point_cloud_node.cpython-310.pyc
+/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/3D_transformer_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/kinect_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/manager_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/kinect_image_node.cpython-310.pyc
@@ -24,6 +28,7 @@
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/yolo_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/ament_index/resource_index/packages/py_kinect_azure_pkg
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/py_kinect_azure_pkg/package.xml
+/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/py_kinect_azure_pkg/launch/spawn_with_empty_world.launch.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg-0.0.4-py3.10.egg-info/top_level.txt
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg-0.0.4-py3.10.egg-info/requires.txt
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg-0.0.4-py3.10.egg-info/entry_points.txt
@@ -41,4 +46,5 @@
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg/point_cloud_node
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg/point_cloud_node_2
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg/point_cloud_node_2_1
+/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg/transformer_node
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg/yolo_node

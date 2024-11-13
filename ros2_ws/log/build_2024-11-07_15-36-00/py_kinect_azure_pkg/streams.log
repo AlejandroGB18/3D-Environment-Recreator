@@ -1,0 +1,53 @@
+[1.116s] Invoking command in '/home/alejandro/ros2_ws/src/py_kinect_azure_pkg': PYTHONPATH=/home/alejandro/ros2_ws/build/py_kinect_azure_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_kinect_azure_pkg build --build-base /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build install --record /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/install.log --single-version-externally-managed install_data
+[1.302s] /home/alejandro/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[1.302s]   warnings.warn(msg)
+[1.458s] running egg_info
+[1.484s] writing ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/PKG-INFO
+[1.485s] writing dependency_links to ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/dependency_links.txt
+[1.485s] writing entry points to ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/entry_points.txt
+[1.485s] writing requirements to ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/requires.txt
+[1.485s] writing top-level names to ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/top_level.txt
+[1.538s] reading manifest file '../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/SOURCES.txt'
+[1.538s] adding license file 'LICENSE'
+[1.539s] writing manifest file '../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/SOURCES.txt'
+[1.539s] running build
+[1.540s] running build_py
+[1.540s] copying py_kinect_azure_pkg/kpc_node_2.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.540s] copying py_kinect_azure_pkg/depth_image_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.540s] copying py_kinect_azure_pkg/env_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.540s] copying py_kinect_azure_pkg/point_cloud_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.541s] copying py_kinect_azure_pkg/3d_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.541s] copying py_kinect_azure_pkg/first_3D_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.541s] copying py_kinect_azure_pkg/test_people.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.541s] copying py_kinect_azure_pkg/kinect_point_cloud_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.541s] copying py_kinect_azure_pkg/3D_transformer_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.541s] copying py_kinect_azure_pkg/kinect_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.542s] copying py_kinect_azure_pkg/manager_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.542s] copying py_kinect_azure_pkg/kinect_image_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.542s] copying py_kinect_azure_pkg/__init__.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.542s] copying py_kinect_azure_pkg/yolo_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg
+[1.542s] running install
+[1.547s] running install_lib
+[1.572s] copying /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg/yolo_node.py -> /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg
+[1.573s] byte-compiling /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/yolo_node.py to yolo_node.cpython-310.pyc
+[1.574s] running install_data
+[1.574s] copying resource/py_kinect_azure_pkg -> /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/ament_index/resource_index/packages
+[1.574s] copying package.xml -> /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/py_kinect_azure_pkg
+[1.574s] running install_egg_info
+[1.602s] removing '/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg-0.0.4-py3.10.egg-info' (and everything under it)
+[1.602s] Copying ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg-0.0.4-py3.10.egg-info
+[1.603s] running install_scripts
+[1.788s] Installing 3D_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.788s] Installing depth_image_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.788s] Installing env_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.788s] Installing kinect_image_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.788s] Installing kinect_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.788s] Installing manager_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.788s] Installing motion_detection script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.788s] Installing point_cloud_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.789s] Installing point_cloud_node_2 script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.789s] Installing point_cloud_node_2_1 script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.789s] Installing transformer_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.789s] Installing yolo_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg
+[1.789s] writing list of installed files to '/home/alejandro/ros2_ws/build/py_kinect_azure_pkg/install.log'
+[1.821s] Invoked command in '/home/alejandro/ros2_ws/src/py_kinect_azure_pkg' returned '0': PYTHONPATH=/home/alejandro/ros2_ws/build/py_kinect_azure_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_kinect_azure_pkg build --build-base /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build install --record /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (py_kinect_azure_pkg) JobQueued: {'identifier': 'py_kinect_azure_pkg', 'dependencies': OrderedDict()}
+[0.000287] (py_kinect_azure_pkg) JobStarted: {'identifier': 'py_kinect_azure_pkg'}
+[0.099439] (-) TimerEvent: {}
+[0.199669] (-) TimerEvent: {}
+[0.299880] (-) TimerEvent: {}
+[0.400165] (-) TimerEvent: {}
+[0.500515] (-) TimerEvent: {}
+[0.601092] (-) TimerEvent: {}
+[0.701344] (-) TimerEvent: {}
+[0.801564] (-) TimerEvent: {}
+[0.901783] (-) TimerEvent: {}
+[1.002009] (-) TimerEvent: {}
+[1.102228] (-) TimerEvent: {}
+[1.171276] (py_kinect_azure_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_kinect_azure_pkg', 'build', '--build-base', '/home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build', 'install', '--record', '/home/alejandro/ros2_ws/build/py_kinect_azure_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alejandro/ros2_ws/src/py_kinect_azure_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'alejandro', 'LC_TIME': 'es_MX.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent/lib:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs/lib', 'HOME': '/home/alejandro', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'MANAGERPID': '1804', 'SYSTEMD_EXEC_PID': '2193', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4177', 'COLCON_PREFIX_PATH': '/home/alejandro/ros2_ws/install:/home/alejandro/ros2_utilities_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'alejandro', 'JOURNAL_STREAM': '8:11066', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alejandro', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/alejandro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/NOTAlejandro:@/tmp/.ICE-unix/2162,unix/NOTAlejandro:/tmp/.ICE-unix/2162', 'INVOCATION_ID': '93faa55c2eb64e0fa603a558077f7d75', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/alejandro/ros2_ws/install/py_kinect_azure_pkg:/opt/ros/humble:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:6fd5d4c0-50e8-404e-8803-047f4d6571c4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alejandro/ros2_ws/build/py_kinect_azure_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/alejandro/ros2_ws/build/py_kinect_azure_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages:/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs'}, 'shell': False}
+[1.202347] (-) TimerEvent: {}
+[1.302757] (-) TimerEvent: {}
+[1.359596] (py_kinect_azure_pkg) StderrLine: {'line': b"/home/alejandro/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[1.359761] (py_kinect_azure_pkg) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.402838] (-) TimerEvent: {}
+[1.503053] (-) TimerEvent: {}
+[1.525195] (py_kinect_azure_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.551802] (py_kinect_azure_pkg) StdoutLine: {'line': b'writing ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/PKG-INFO\n'}
+[1.552429] (py_kinect_azure_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/dependency_links.txt\n'}
+[1.552893] (py_kinect_azure_pkg) StdoutLine: {'line': b'writing entry points to ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/entry_points.txt\n'}
+[1.553158] (py_kinect_azure_pkg) StdoutLine: {'line': b'writing requirements to ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/requires.txt\n'}
+[1.553303] (py_kinect_azure_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/top_level.txt\n'}
+[1.603146] (-) TimerEvent: {}
+[1.607751] (py_kinect_azure_pkg) StdoutLine: {'line': b"reading manifest file '../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/SOURCES.txt'\n"}
+[1.608099] (py_kinect_azure_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.609143] (py_kinect_azure_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info/SOURCES.txt'\n"}
+[1.609300] (py_kinect_azure_pkg) StdoutLine: {'line': b'running build\n'}
+[1.609426] (py_kinect_azure_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.609763] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/kpc_node_2.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.609997] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/depth_image_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.610193] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/env_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.610347] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/point_cloud_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.610573] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/3d_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.610781] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/first_3D_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.610945] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/test_people.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.611101] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/kinect_point_cloud_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.611292] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/3D_transformer_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.611497] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/kinect_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.611667] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/manager_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.611861] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/kinect_image_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.612047] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/__init__.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.612207] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying py_kinect_azure_pkg/yolo_node.py -> /home/alejandro/ros2_ws/build/py_kinect_azure_pkg/build/lib/py_kinect_azure_pkg\n'}
+[1.613189] (py_kinect_azure_pkg) StdoutLine: {'line': b'running install\n'}
+[1.622381] (py_kinect_azure_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.651540] (py_kinect_azure_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.651775] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying resource/py_kinect_azure_pkg -> /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/ament_index/resource_index/packages\n'}
+[1.651908] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying package.xml -> /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/py_kinect_azure_pkg\n'}
+[1.652033] (py_kinect_azure_pkg) StdoutLine: {'line': b'copying launch/spawn_with_empty_world.launch.py -> /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/py_kinect_azure_pkg/launch\n'}
+[1.652177] (py_kinect_azure_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.681318] (py_kinect_azure_pkg) StdoutLine: {'line': b"removing '/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg-0.0.4-py3.10.egg-info' (and everything under it)\n"}
+[1.681758] (py_kinect_azure_pkg) StdoutLine: {'line': b'Copying ../../build/py_kinect_azure_pkg/py_kinect_azure_pkg.egg-info to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg-0.0.4-py3.10.egg-info\n'}
+[1.682922] (py_kinect_azure_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.703235] (-) TimerEvent: {}
+[1.803506] (-) TimerEvent: {}
+[1.876953] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing 3D_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.877212] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing depth_image_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.877360] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing env_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.877481] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing kinect_image_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.877685] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing kinect_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.877883] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing manager_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.878007] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing motion_detection script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.878165] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing point_cloud_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.878283] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing point_cloud_node_2 script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.878440] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing point_cloud_node_2_1 script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.878674] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing transformer_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.878819] (py_kinect_azure_pkg) StdoutLine: {'line': b'Installing yolo_node script to /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/py_kinect_azure_pkg\n'}
+[1.879883] (py_kinect_azure_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/alejandro/ros2_ws/build/py_kinect_azure_pkg/install.log'\n"}
+[1.903610] (-) TimerEvent: {}
+[1.910229] (py_kinect_azure_pkg) CommandEnded: {'returncode': 0}
+[1.925195] (py_kinect_azure_pkg) JobEnded: {'identifier': 'py_kinect_azure_pkg', 'rc': 0}
+[1.925904] (-) EventReactorShutdown: {}

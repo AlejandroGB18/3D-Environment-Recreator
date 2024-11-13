@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
 package_name = 'py_kinect_azure_pkg'
 
@@ -10,6 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        # Incluir archivos de lanzamiento
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools', 'pykinect_azure==0.0.4'],
     zip_safe=True,
@@ -30,7 +34,8 @@ setup(
         'env_node = py_kinect_azure_pkg.env_node:main',
         'yolo_node = py_kinect_azure_pkg.yolo_node:main',
         'motion_detection = py_kinect_azure_pkg.test_people:main',
-        'manager_node = py_kinect_azure_pkg.manager_node:main'
+        'manager_node = py_kinect_azure_pkg.manager_node:main',
+        'transformer_node = py_kinect_azure_pkg.3D_transformer_node:main'
         ],
     },
 )

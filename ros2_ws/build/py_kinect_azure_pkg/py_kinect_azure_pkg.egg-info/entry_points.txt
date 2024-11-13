@@ -9,4 +9,5 @@ motion_detection = py_kinect_azure_pkg.test_people:main
 point_cloud_node = py_kinect_azure_pkg.point_cloud_node:main
 point_cloud_node_2 = py_kinect_azure_pkg.kinect_point_cloud_node:main
 point_cloud_node_2_1 = py_kinect_azure_pkg.kpc_node_2:main
+transformer_node = py_kinect_azure_pkg.3D_transformer_node:main
 yolo_node = py_kinect_azure_pkg.yolo_node:main

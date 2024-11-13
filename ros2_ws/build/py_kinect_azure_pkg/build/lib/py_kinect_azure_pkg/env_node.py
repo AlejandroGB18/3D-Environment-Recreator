@@ -7,7 +7,6 @@ import numpy as np
 import struct
 from geometry_msgs.msg import TransformStamped
 import tf2_ros
-import matplotlib.pyplot as plt
 
 class KinectEnvNode(Node):
     def __init__(self):
@@ -29,7 +28,7 @@ class KinectEnvNode(Node):
         self.depth_image = None
 
         # Timer for publishing point cloud and transformation data
-        self.timer = self.create_timer(0.1, self.publish_point_cloud)
+        self.timer = self.create_timer(0.05, self.publish_point_cloud)
 
     def color_image_callback(self, msg):
         # Convert the ROS Image message to an OpenCV image
@@ -54,7 +53,6 @@ class KinectEnvNode(Node):
         t.transform.translation.z = 1.0  # Positioning camera 1 meter above the plane for a better field of view
 
         # Adjust quaternion for the camera to face directly along the Z-axis
-        # with a downward orientation to align height on Z+ and ground on Z=0
         t.transform.rotation.x = 0.707  # 45 degrees rotation to face downward
         t.transform.rotation.y = 0.0
         t.transform.rotation.z = 0.0
@@ -84,15 +82,30 @@ class KinectEnvNode(Node):
         cy = height / 2
         scale_factor = 0.1  # Depth scale to meters
 
+        # Define depth range for filtering points within expected object distances
+        min_depth = 20.0  # Minimum distance for object points (in meters)
+        max_depth = 200.0  # Maximum distance for object points (in meters)
+
+        # Define Region of Interest (ROI) for object area on the table
+        roi_x_start = int(width * 0.3)
+        roi_x_end = int(width * 0.6)
+        roi_y_start = int(height * 0.3)
+        roi_y_end = int(height * 1.0)
+
         # Iterate through the depth image to create the point cloud
-        for y in range(height):
-            for x in range(width):
+        for y in range(roi_y_start, roi_y_end):
+            for x in range(roi_x_start, roi_x_end):
                 depth_value = self.depth_image[y, x]
                 if depth_value == 0:  # Skip invalid depth points
                     continue
 
                 # Convert pixel (x, y) and depth to 3D point in camera space
                 z3d = depth_value * scale_factor  # Convert depth to meters
+
+                # Apply depth range filter
+                if z3d < min_depth or z3d > max_depth:
+                    continue  # Skip points outside the object depth range
+
                 x3d = -(x - cx) * z3d / fx  # Negate x-axis to correct mirroring
                 y3d = (y - cy) * z3d / fy
 
@@ -139,7 +152,7 @@ class KinectEnvNode(Node):
 
         # Publish the point cloud
         self.point_cloud_publisher.publish(cloud_msg)
-        self.get_logger().info("Point cloud published")
+        self.get_logger().info("Filtered point cloud published")
 
 def main(args=None):
     rclpy.init(args=args)
