@@ -170,9 +170,9 @@ class SimEnvNode(Node):
     def get_pose_for_object(self, obj_name):
         # Returns the spawn position for each object
         positions = {
-            "coffee": (1.0, 0.5, 0.0),
-            "apple": (1.2, 0.5, 0.0),
-            "can": (1.4, 0.5, 0.0)
+            "coffee": (-5.0, 2.0, 0.63),
+            "apple": (-5.2, 2.0, 0.63),
+            "can": (-5.4, 2.0, 0.63)
         }
         pose = Pose()
         pose.position.x, pose.position.y, pose.position.z = positions.get(obj_name, (0, 0, 0))
