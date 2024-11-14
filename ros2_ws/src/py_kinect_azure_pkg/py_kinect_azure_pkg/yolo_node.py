@@ -31,8 +31,8 @@ class KinectYoloNode(Node):
         results = self.model(color_image_bgr)
 
         # Process predictions
-        detect = ""
         detections = ""
+        detected_objects = []
         for r in results:
             boxes = r.boxes
             for box in boxes:
@@ -42,9 +42,17 @@ class KinectYoloNode(Node):
                 
                 cv2.rectangle(color_image_bgr, (x1, y1), (x2, y2), (0, 255, 0), 2)
                 cv2.putText(color_image_bgr, f"{label} {confidence:.2f}", (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
+                
+                # Append to detections string for detailed info
                 detections += f"Object: {label}, Confidence: {confidence:.2f}, Coordinates: {x1}, {y1}, {x2}, {y2}\n"
-                detect = f"{label(0)},{label(1)}"
+                
+                # Add object label to detected objects list for simple object list
+                detected_objects.append(label)
 
+        # Join all detected objects in a single comma-separated string
+        detect = ",".join(detected_objects)
+
+        # Publish the annotated image and detection details
         detection_image_msg = self.bridge.cv2_to_imgmsg(color_image_bgr, encoding="bgr8")
         self.detections_publisher.publish(detection_image_msg)
         self.detections_info_publisher.publish(String(data=detections))

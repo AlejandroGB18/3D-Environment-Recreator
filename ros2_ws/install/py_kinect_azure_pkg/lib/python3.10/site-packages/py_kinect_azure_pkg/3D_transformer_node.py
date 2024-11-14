@@ -8,7 +8,7 @@ class SimEnvNode(Node):
     def __init__(self):
         super().__init__('sim_env_node')
 
-        # Client for spawning and deleting models in Gazebo
+        # Clients for spawning and deleting models in Gazebo
         self.spawn_client = self.create_client(SpawnEntity, '/spawn_entity')
         while not self.spawn_client.wait_for_service(timeout_sec=5.0):
             self.get_logger().warn("Waiting for Gazebo spawn service...")
@@ -20,7 +20,7 @@ class SimEnvNode(Node):
         # Subscription to object detection topic
         self.create_subscription(String, 'yolo_detections', self.process_detections, 10)
         
-        # Track detection and spawned status for each object
+        # Tracking the detection state and spawned status for each object
         self.objects = {
             "coffee": {"spawned": False, "last_detected": False},
             "apple": {"spawned": False, "last_detected": False},
@@ -28,27 +28,22 @@ class SimEnvNode(Node):
         }
 
     def process_detections(self, msg):
-        # Detect multiple objects and handle them independently
-        detected_objects = msg.data.split(',')
+        # Iterate over each object and check if it is detected
+        for obj in self.objects:
+            detected = obj.capitalize() in msg.data
+            state = self.objects[obj]
+            self.get_logger().info(f"Processing {obj}: detected={detected}, last_detected={state['last_detected']}, spawned={state['spawned']}")
 
-        for obj_name in self.objects.keys():
-            detected = obj_name.capitalize() in detected_objects
-            obj_state = self.objects[obj_name]
-
-            # Log current processing state for each object
-            self.get_logger().info(f"Processing {obj_name}: detected={detected}, last_detected={obj_state['last_detected']}, spawned={obj_state['spawned']}")
-
-            # Spawn object if detected and not already spawned
-            if detected and not obj_state["spawned"]:
-                self.get_logger().info(f"Detected '{obj_name.capitalize()}' - Spawning in Gazebo.")
-                self.spawn_object_in_gazebo(obj_name)
-                obj_state["last_detected"] = True
-
-            # Remove object if not detected but previously spawned
-            elif not detected and obj_state["spawned"]:
-                self.get_logger().info(f"No '{obj_name.capitalize()}' detected - Removing from Gazebo.")
-                self.remove_object_from_gazebo(obj_name)
-                obj_state["last_detected"] = False
+            # Spawn the object if detected and not yet spawned
+            if detected and not state["spawned"]:
+                self.get_logger().info(f"Detected '{obj.capitalize()}' - Spawning in Gazebo.")
+                self.spawn_object_in_gazebo(obj)
+                state["last_detected"] = True
+            # Remove the object if not detected and it was previously spawned
+            elif not detected and state["spawned"]:
+                self.get_logger().info(f"No '{obj.capitalize()}' detected - Removing from Gazebo.")
+                self.remove_object_from_gazebo(obj)
+                state["last_detected"] = False
 
     def spawn_object_in_gazebo(self, obj_name):
         request = SpawnEntity.Request()
@@ -59,7 +54,7 @@ class SimEnvNode(Node):
 
         self.get_logger().info(f"Sending spawn request for {obj_name} to Gazebo...")
         future = self.spawn_client.call_async(request)
-        future.add_done_callback(lambda f, obj=obj_name: self.spawn_response_callback(f, obj))
+        future.add_done_callback(lambda f: self.spawn_response_callback(f, obj_name))
 
     def spawn_response_callback(self, future, obj_name):
         try:
@@ -78,7 +73,7 @@ class SimEnvNode(Node):
 
         self.get_logger().info(f"Sending delete request for {obj_name} to Gazebo...")
         future = self.delete_client.call_async(request)
-        future.add_done_callback(lambda f, obj=obj_name: self.delete_response_callback(f, obj))
+        future.add_done_callback(lambda f: self.delete_response_callback(f, obj_name))
 
     def delete_response_callback(self, future, obj_name):
         try:
