@@ -30,6 +30,7 @@
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg/__pycache__/yolo_node.cpython-310.pyc
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/ament_index/resource_index/packages/py_kinect_azure_pkg
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/py_kinect_azure_pkg/package.xml
+/home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/py_kinect_azure_pkg/launch/3D_transformation.launch.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/share/py_kinect_azure_pkg/launch/spawn_with_empty_world.launch.py
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg-0.0.4-py3.10.egg-info/top_level.txt
 /home/alejandro/ros2_ws/install/py_kinect_azure_pkg/lib/python3.10/site-packages/py_kinect_azure_pkg-0.0.4-py3.10.egg-info/requires.txt
