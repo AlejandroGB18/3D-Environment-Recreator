@@ -1,0 +1,6 @@
+Invoking command in '/home/alejandro/bookros2_ws/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/Groot -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/groot
+Invoked command in '/home/alejandro/bookros2_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/Groot -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/groot
+Invoking command in '/home/alejandro/bookros2_ws/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/groot -- -j8 -l8
+Invoked command in '/home/alejandro/bookros2_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/groot -- -j8 -l8
+Invoking command in '/home/alejandro/bookros2_ws/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/groot
+Invoked command in '/home/alejandro/bookros2_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/groot

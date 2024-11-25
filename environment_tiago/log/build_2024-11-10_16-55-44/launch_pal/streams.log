@@ -1,0 +1,30 @@
+[3.560s] Invoking command in '/home/alejandro/bookros2_ws/build/launch_pal': PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/alejandro/bookros2_ws/build/launch_pal/build --no-deps symlink_data
+[4.232s] /home/alejandro/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[4.233s]   warnings.warn(msg)
+[4.889s] /home/alejandro/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.889s] !!
+[4.889s] 
+[4.890s]         ********************************************************************************
+[4.890s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.891s]         Instead, use pypa/build, pypa/installer or other
+[4.891s]         standards-based tools.
+[4.891s] 
+[4.891s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.891s]         ********************************************************************************
+[4.891s] 
+[4.891s] !!
+[4.891s]   easy_install.initialize_options(self)
+[4.892s] running develop
+[5.683s] running egg_info
+[5.736s] writing launch_pal.egg-info/PKG-INFO
+[5.736s] writing dependency_links to launch_pal.egg-info/dependency_links.txt
+[5.736s] writing requirements to launch_pal.egg-info/requires.txt
+[5.736s] writing top-level names to launch_pal.egg-info/top_level.txt
+[5.839s] reading manifest file 'launch_pal.egg-info/SOURCES.txt'
+[5.843s] writing manifest file 'launch_pal.egg-info/SOURCES.txt'
+[5.971s] running build_ext
+[5.971s] Creating /home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages/launch-pal.egg-link (link to .)
+[5.972s] 
+[5.972s] Installed /home/alejandro/bookros2_ws/build/launch_pal
+[5.972s] running symlink_data
+[6.164s] Invoked command in '/home/alejandro/bookros2_ws/build/launch_pal' returned '0': PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/alejandro/bookros2_ws/build/launch_pal/build --no-deps symlink_data

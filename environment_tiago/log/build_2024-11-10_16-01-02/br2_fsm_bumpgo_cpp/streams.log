@@ -1,0 +1,77 @@
+[0.013s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp
+[0.380s] -- The C compiler identification is GNU 11.4.0
+[0.380s] -- The CXX compiler identification is GNU 11.4.0
+[0.380s] -- Detecting C compiler ABI info
+[0.381s] -- Detecting C compiler ABI info - done
+[0.381s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.381s] -- Detecting CXX compiler ABI info
+[0.506s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.525s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.499s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.601s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.787s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.819s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.857s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.157s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.171s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.557s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.702s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.890s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.934s] -- Looking for pthread.h
+[3.211s] -- Looking for pthread.h - found
+[3.212s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.453s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.453s] -- Found Threads: TRUE  
+[3.740s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.918s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.482s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.486s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.486s] -- Configured cppcheck include dirs: /home/alejandro/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include
+[4.486s] -- Configured cppcheck exclude dirs and/or files: 
+[4.491s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.491s] -- Configured cpplint exclude dirs and/or files: 
+[4.496s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.504s] -- Added test 'lint_cmake' to check CMake code style
+[4.508s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.511s] -- Added test 'uncrustify' to check C / C++ code style
+[4.511s] -- Configured uncrustify additional arguments: 
+[4.516s] -- Added test 'xmllint' to check XML markup files
+[4.523s] -- Configuring done
+[4.564s] -- Generating done
+[4.574s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp
+[4.638s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp
+[4.638s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8
+[4.815s] [ 33%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/bumpgo_main.cpp.o[0m
+[4.823s] [ 66%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o[0m
+[36.705s] [100%] [32m[1mLinking CXX executable bumpgo[0m
+[37.530s] [100%] Built target bumpgo
+[37.554s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8
+[37.611s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp
+[37.915s] -- Install configuration: ""
+[37.915s] -- Execute custom install script
+[37.915s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/lib/br2_fsm_bumpgo_cpp/bumpgo
+[37.916s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/launch/bump_and_go.launch.py
+[37.916s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/ament_index/resource_index/package_run_dependencies/br2_fsm_bumpgo_cpp
+[37.916s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/ament_index/resource_index/parent_prefix_path/br2_fsm_bumpgo_cpp
+[37.916s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/environment/ament_prefix_path.sh
+[37.916s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/environment/ament_prefix_path.dsv
+[37.916s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/environment/path.sh
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/environment/path.dsv
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/local_setup.bash
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/local_setup.sh
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/local_setup.zsh
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/local_setup.dsv
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/package.dsv
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/ament_index/resource_index/packages/br2_fsm_bumpgo_cpp
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/cmake/br2_fsm_bumpgo_cppConfig.cmake
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/cmake/br2_fsm_bumpgo_cppConfig-version.cmake
+[37.917s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/package.xml
+[37.930s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_cpp

@@ -1,0 +1,43 @@
+[0.035s] Invoking command in '/home/alejandro/bookros2_ws/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/groot -- -j8 -l8
+[0.177s] [  1%] [34m[1mAutomatic MOC and UIC for target QtNodeEditor[0m
+[0.229s] [  1%] Built target QtNodeEditor_autogen
+[0.341s] [ 57%] Built target QtNodeEditor
+[0.389s] [ 58%] [34m[1mAutomatic MOC and UIC for target behavior_tree_editor[0m
+[0.448s] [ 58%] Built target behavior_tree_editor_autogen
+[0.547s] [ 74%] Built target behavior_tree_editor
+[0.606s] [ 75%] [34m[1mAutomatic MOC and UIC for target Groot[0m
+[0.606s] [ 75%] [34m[1mAutomatic MOC and UIC for target editor_test[0m
+[0.608s] [ 76%] [34m[1mAutomatic MOC and UIC for target replay_test[0m
+[0.653s] [ 76%] Built target Groot_autogen
+[0.664s] [ 76%] Built target editor_test_autogen
+[0.665s] [ 76%] Built target replay_test_autogen
+[0.716s] [ 82%] Built target Groot
+[0.732s] [ 91%] Built target editor_test
+[0.758s] [100%] Built target replay_test
+[0.794s] Invoked command in '/home/alejandro/bookros2_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/groot -- -j8 -l8
+[0.935s] Invoking command in '/home/alejandro/bookros2_ws/build/groot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/groot
+[0.947s] -- Install configuration: ""
+[0.948s] -- Execute custom install script
+[0.950s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/lib/libbehavior_tree_editor.so
+[0.950s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/lib/groot/Groot
+[0.951s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/environment/library_path.sh
+[0.951s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/environment/library_path.dsv
+[0.952s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/ament_index/resource_index/package_run_dependencies/groot
+[0.952s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/ament_index/resource_index/parent_prefix_path/groot
+[0.952s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/environment/ament_prefix_path.sh
+[0.953s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/environment/ament_prefix_path.dsv
+[0.953s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/environment/path.sh
+[0.954s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/environment/path.dsv
+[0.954s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/local_setup.bash
+[0.954s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/local_setup.sh
+[0.954s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/local_setup.zsh
+[0.955s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/local_setup.dsv
+[0.955s] -- Symlinking: /home/alejandro/bookros2_ws/install/groot/share/groot/package.dsv
+[0.970s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/ament_index/resource_index/packages/groot
+[0.971s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.973s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.973s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/cmake/ament_cmake_export_libraries-extras.cmake
+[0.973s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/cmake/grootConfig.cmake
+[0.974s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/cmake/grootConfig-version.cmake
+[0.974s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/groot/share/groot/package.xml
+[0.980s] Invoked command in '/home/alejandro/bookros2_ws/build/groot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/groot

@@ -1,0 +1,50 @@
+[0.202s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[0.488s] [ 10%] Built target br2_recharge_bt_node
+[0.566s] [ 20%] Built target gtest_main
+[0.698s] [ 30%] Built target gtest
+[0.810s] [ 40%] Built target patrolling_main
+[0.912s] [ 50%] Built target br2_track_objects_bt_node
+[1.031s] [ 60%] Built target br2_battery_checker_bt_node
+[1.143s] [ 70%] Built target bt_action_test
+[1.269s] [ 80%] Built target br2_get_waypoint_bt_node
+[1.414s] [ 90%] Built target br2_move_bt_node
+[1.543s] [100%] Built target br2_patrol_bt_node
+[1.743s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[2.009s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_bt_patrolling
+[2.051s] -- Install configuration: "Debug"
+[2.052s] -- Execute custom install script
+[2.052s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_recharge_bt_node.so
+[2.054s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_patrol_bt_node.so
+[2.054s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_move_bt_node.so
+[2.055s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_get_waypoint_bt_node.so
+[2.056s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_battery_checker_bt_node.so
+[2.056s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_track_objects_bt_node.so
+[2.057s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/br2_bt_patrolling/patrolling_main
+[2.059s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/BatteryChecker.hpp
+[2.065s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/GetWaypoint.hpp
+[2.069s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Move.hpp
+[2.069s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Patrol.hpp
+[2.071s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Recharge.hpp
+[2.072s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/TrackObjects.hpp
+[2.077s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTActionNode.hpp
+[2.082s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTLifecycleCtrlNode.hpp
+[2.083s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/behavior_tree_xml/patrolling.xml
+[2.083s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/launch/patrolling.launch.py
+[2.083s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/package_run_dependencies/br2_bt_patrolling
+[2.084s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/parent_prefix_path/br2_bt_patrolling
+[2.084s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.sh
+[2.085s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.dsv
+[2.085s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.sh
+[2.086s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.dsv
+[2.086s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.bash
+[2.086s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.sh
+[2.087s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.zsh
+[2.089s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.dsv
+[2.090s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.dsv
+[2.141s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/packages/br2_bt_patrolling
+[2.142s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.142s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.142s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig.cmake
+[2.143s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig-version.cmake
+[2.152s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.xml
+[2.295s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_bt_patrolling

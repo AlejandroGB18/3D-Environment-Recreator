@@ -1,0 +1,24 @@
+[0.748s] Invoking command in '/home/alejandro/bookros2_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/pmb2_laser_sensors -- -j8 -l8
+[0.923s] Invoked command in '/home/alejandro/bookros2_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/pmb2_laser_sensors -- -j8 -l8
+[1.023s] Invoking command in '/home/alejandro/bookros2_ws/build/pmb2_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/pmb2_laser_sensors
+[1.114s] -- Install configuration: ""
+[1.114s] -- Execute custom install script
+[1.114s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline.yaml
+[1.116s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline_sim.yaml
+[1.117s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/params/laser_pipeline_w_composition.yaml
+[1.120s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/package_run_dependencies/pmb2_laser_sensors
+[1.125s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/parent_prefix_path/pmb2_laser_sensors
+[1.128s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.sh
+[1.130s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/ament_prefix_path.dsv
+[1.130s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.sh
+[1.131s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/environment/path.dsv
+[1.131s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.bash
+[1.131s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.sh
+[1.131s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.zsh
+[1.132s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/local_setup.dsv
+[1.133s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.dsv
+[1.174s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/ament_index/resource_index/packages/pmb2_laser_sensors
+[1.175s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig.cmake
+[1.181s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/cmake/pmb2_laser_sensorsConfig-version.cmake
+[1.187s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pmb2_laser_sensors/share/pmb2_laser_sensors/package.xml
+[1.379s] Invoked command in '/home/alejandro/bookros2_ws/build/pmb2_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/pmb2_laser_sensors

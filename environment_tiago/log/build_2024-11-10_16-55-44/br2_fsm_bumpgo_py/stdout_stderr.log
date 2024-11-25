@@ -1,0 +1,30 @@
+/home/alejandro/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/home/alejandro/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running develop
+running egg_info
+writing br2_fsm_bumpgo_py.egg-info/PKG-INFO
+writing dependency_links to br2_fsm_bumpgo_py.egg-info/dependency_links.txt
+writing entry points to br2_fsm_bumpgo_py.egg-info/entry_points.txt
+writing requirements to br2_fsm_bumpgo_py.egg-info/requires.txt
+writing top-level names to br2_fsm_bumpgo_py.egg-info/top_level.txt
+reading manifest file 'br2_fsm_bumpgo_py.egg-info/SOURCES.txt'
+writing manifest file 'br2_fsm_bumpgo_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages/br2-fsm-bumpgo-py.egg-link (link to .)
+Installing bump_go_main script to /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/br2_fsm_bumpgo_py
+
+Installed /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py
+running symlink_data

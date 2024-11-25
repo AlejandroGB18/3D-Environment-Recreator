@@ -1,0 +1,118 @@
+[0.804s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tracking_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tracking_msgs -- -j8 -l8
+[0.999s] [  3%] Built target br2_tracking_msgs__cpp
+[1.115s] [  3%] Built target ament_cmake_python_symlink_br2_tracking_msgs
+[1.222s] [ 12%] Built target br2_tracking_msgs__rosidl_typesupport_introspection_cpp
+[2.299s] running egg_info
+[2.450s] writing br2_tracking_msgs.egg-info/PKG-INFO
+[2.450s] writing dependency_links to br2_tracking_msgs.egg-info/dependency_links.txt
+[2.453s] writing top-level names to br2_tracking_msgs.egg-info/top_level.txt
+[2.871s] reading manifest file 'br2_tracking_msgs.egg-info/SOURCES.txt'
+[2.876s] writing manifest file 'br2_tracking_msgs.egg-info/SOURCES.txt'
+[3.072s] [ 12%] Built target ament_cmake_python_build_br2_tracking_msgs_egg
+[3.199s] [ 22%] Built target br2_tracking_msgs__rosidl_typesupport_fastrtps_cpp
+[3.300s] [ 32%] Built target br2_tracking_msgs__rosidl_typesupport_cpp
+[3.424s] [ 41%] Built target br2_tracking_msgs__rosidl_generator_c
+[3.516s] [ 51%] Built target br2_tracking_msgs__rosidl_typesupport_fastrtps_c
+[3.625s] [ 61%] Built target br2_tracking_msgs__rosidl_typesupport_c
+[3.708s] [ 70%] Built target br2_tracking_msgs__rosidl_typesupport_introspection_c
+[3.779s] [ 70%] Built target br2_tracking_msgs
+[3.893s] [ 74%] Built target br2_tracking_msgs__py
+[4.004s] [ 80%] Built target br2_tracking_msgs__rosidl_generator_py
+[4.100s] [ 87%] Built target br2_tracking_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.172s] [ 93%] Built target br2_tracking_msgs__rosidl_typesupport_c__pyext
+[4.257s] [100%] Built target br2_tracking_msgs__rosidl_typesupport_introspection_c__pyext
+[4.316s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tracking_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tracking_msgs -- -j8 -l8
+[4.688s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tracking_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tracking_msgs
+[4.751s] -- Install configuration: ""
+[4.753s] -- Execute custom install script
+[4.757s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/ament_index/resource_index/rosidl_interfaces/br2_tracking_msgs
+[4.768s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__functions.h
+[4.769s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__struct.h
+[4.769s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__type_support.h
+[4.769s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/pan_tilt_command.h
+[4.769s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.771s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/library_path.sh
+[4.771s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/library_path.dsv
+[4.771s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__rosidl_typesupport_fastrtps_c.h
+[4.772s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.772s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__builder.hpp
+[4.772s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__struct.hpp
+[4.774s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__traits.hpp
+[4.779s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/pan_tilt_command.hpp
+[4.780s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__rosidl_typesupport_fastrtps_cpp.hpp
+[4.780s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.787s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__rosidl_typesupport_introspection_c.h
+[4.787s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.788s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/include/br2_tracking_msgs/br2_tracking_msgs/msg/detail/pan_tilt_command__rosidl_typesupport_introspection_cpp.hpp
+[4.788s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/pythonpath.sh
+[4.788s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/pythonpath.dsv
+[4.788s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs-0.2.0-py3.10.egg-info/PKG-INFO
+[4.788s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs-0.2.0-py3.10.egg-info/SOURCES.txt
+[4.788s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs-0.2.0-py3.10.egg-info/dependency_links.txt
+[4.788s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs-0.2.0-py3.10.egg-info/top_level.txt
+[4.788s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/__init__.py
+[4.788s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/_br2_tracking_msgs_s.ep.rosidl_typesupport_c.c
+[4.789s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/_br2_tracking_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.789s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/_br2_tracking_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.794s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.796s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.801s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.803s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/libbr2_tracking_msgs__rosidl_generator_py.so
+[4.804s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/msg/__init__.py
+[4.812s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/msg/_pan_tilt_command.py
+[4.812s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/msg/_pan_tilt_command_s.c
+[4.813s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.813s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.813s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/br2_tracking_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.813s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/msg/PanTiltCommand.idl
+[4.813s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/msg/PanTiltCommand.msg
+[4.815s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/ament_index/resource_index/package_run_dependencies/br2_tracking_msgs
+[4.816s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/ament_index/resource_index/parent_prefix_path/br2_tracking_msgs
+[4.816s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/ament_prefix_path.sh
+[4.816s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/ament_prefix_path.dsv
+[4.819s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/path.sh
+[4.820s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/environment/path.dsv
+[4.820s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/local_setup.bash
+[4.820s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/local_setup.sh
+[4.824s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/local_setup.zsh
+[4.827s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/local_setup.dsv
+[4.827s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/package.dsv
+[4.851s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/ament_index/resource_index/packages/br2_tracking_msgs
+[4.851s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/rosidl_cmake-extras.cmake
+[4.854s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.854s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.854s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.855s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.855s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.855s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.856s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgsConfig.cmake
+[4.856s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgsConfig-version.cmake
+[4.861s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/package.xml
+[4.862s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_generator_c.so
+[4.867s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_fastrtps_c.so
+[4.867s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.871s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_introspection_c.so
+[4.872s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_c.so
+[4.873s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_introspection_cpp.so
+[4.874s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_typesupport_cpp.so
+[5.020s] Listing '/home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs'...
+[5.027s] Listing '/home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages/br2_tracking_msgs/msg'...
+[5.068s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib/libbr2_tracking_msgs__rosidl_generator_py.so
+[5.068s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_cExport.cmake
+[5.075s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.075s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.076s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.076s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_cppExport.cmake
+[5.076s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.076s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.076s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.076s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.076s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_cExport.cmake
+[5.076s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.078s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.083s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.088s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_cppExport.cmake
+[5.089s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/br2_tracking_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.089s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_pyExport.cmake
+[5.089s] -- Up-to-date: /home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake/export_br2_tracking_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.206s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tracking_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tracking_msgs

@@ -1,0 +1,53 @@
+[0.037s] Invoking command in '/home/alejandro/bookros2_ws/build/pmb2_controller_configuration': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/pmb2_robot/pmb2_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/pmb2_controller_configuration
+[4.218s] -- The C compiler identification is GNU 11.4.0
+[4.218s] -- The CXX compiler identification is GNU 11.4.0
+[4.218s] -- Detecting C compiler ABI info
+[4.218s] -- Detecting C compiler ABI info - done
+[4.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.218s] -- Detecting C compile features
+[4.218s] -- Detecting C compile features - done
+[4.218s] -- Detecting CXX compiler ABI info
+[4.218s] -- Detecting CXX compiler ABI info - done
+[4.218s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.219s] -- Detecting CXX compile features
+[4.219s] -- Detecting CXX compile features - done
+[4.219s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[4.219s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.219s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.219s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.219s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.219s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.219s] -- Added test 'lint_cmake' to check CMake code style
+[4.219s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.219s] -- Added test 'xmllint' to check XML markup files
+[4.219s] -- Configuring done
+[4.219s] -- Generating done
+[4.219s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/pmb2_controller_configuration
+[4.252s] Invoked command in '/home/alejandro/bookros2_ws/build/pmb2_controller_configuration' returned '0': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/pmb2_robot/pmb2_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/pmb2_controller_configuration
+[4.253s] Invoking command in '/home/alejandro/bookros2_ws/build/pmb2_controller_configuration': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/pmb2_controller_configuration -- -j8 -l8
+[4.808s] Invoked command in '/home/alejandro/bookros2_ws/build/pmb2_controller_configuration' returned '0': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/pmb2_controller_configuration -- -j8 -l8
+[4.932s] Invoking command in '/home/alejandro/bookros2_ws/build/pmb2_controller_configuration': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/pmb2_controller_configuration
+[6.607s] -- Install configuration: ""
+[6.607s] -- Execute custom install script
+[6.608s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/imu_sensor_broadcaster.yaml
+[6.608s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/joint_state_broadcaster.yaml
+[6.608s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/mobile_base_controller.yaml
+[6.608s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/mobile_base_controller_public_sim.yaml
+[6.608s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/launch/default_controllers.launch.py
+[6.608s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/launch/mobile_base_controller.launch.py
+[6.608s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pmb2_controller_configuration
+[6.608s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pmb2_controller_configuration
+[6.609s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/ament_prefix_path.sh
+[6.609s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/ament_prefix_path.dsv
+[6.609s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/path.sh
+[6.614s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/path.dsv
+[6.614s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.bash
+[6.614s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.sh
+[6.614s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.zsh
+[6.614s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.dsv
+[6.615s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/package.dsv
+[6.615s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/ament_index/resource_index/packages/pmb2_controller_configuration
+[6.615s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/cmake/pmb2_controller_configurationConfig.cmake
+[6.615s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/cmake/pmb2_controller_configurationConfig-version.cmake
+[6.615s] -- Symlinking: /home/alejandro/bookros2_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/package.xml
+[6.616s] Invoked command in '/home/alejandro/bookros2_ws/build/pmb2_controller_configuration' returned '0': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/launch_pal:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/pmb2_controller_configuration

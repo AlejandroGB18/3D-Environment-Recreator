@@ -1,0 +1,95 @@
+[0.031s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_bt_patrolling -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_bt_patrolling
+[0.048s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.206s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.214s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.247s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.250s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.258s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.344s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.528s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.556s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.605s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.624s] -- Found nav2_msgs: 1.1.16 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.692s] -- ZeroMQ found.
+[0.709s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.797s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.809s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.813s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.814s] -- Configured cppcheck include dirs: /home/alejandro/bookros2_ws/src/book_ros2/br2_bt_patrolling/include
+[0.814s] -- Configured cppcheck exclude dirs and/or files: 
+[0.814s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.814s] -- Configured cpplint exclude dirs and/or files: 
+[0.814s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.816s] -- Added test 'lint_cmake' to check CMake code style
+[0.816s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.819s] -- Added test 'uncrustify' to check C / C++ code style
+[0.819s] -- Configured uncrustify additional arguments: 
+[0.819s] -- Added test 'xmllint' to check XML markup files
+[0.823s] -- Configuring done
+[0.924s] -- Generating done
+[0.927s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/br2_bt_patrolling
+[0.944s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_bt_patrolling -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_bt_patrolling
+[0.945s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[1.005s] [35m[1mConsolidate compiler generated dependencies of target br2_patrol_bt_node[0m
+[1.006s] [35m[1mConsolidate compiler generated dependencies of target br2_get_waypoint_bt_node[0m
+[1.014s] [35m[1mConsolidate compiler generated dependencies of target br2_move_bt_node[0m
+[1.014s] [35m[1mConsolidate compiler generated dependencies of target br2_recharge_bt_node[0m
+[1.015s] [35m[1mConsolidate compiler generated dependencies of target br2_battery_checker_bt_node[0m
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target patrolling_main[0m
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target br2_track_objects_bt_node[0m
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.037s] [ 10%] Built target br2_patrol_bt_node
+[1.044s] [ 20%] Built target br2_recharge_bt_node
+[1.049s] [ 30%] Built target br2_get_waypoint_bt_node
+[1.052s] [ 40%] Built target br2_battery_checker_bt_node
+[1.057s] [ 50%] Built target gtest_main
+[1.057s] [ 60%] Built target br2_move_bt_node
+[1.069s] [ 70%] Built target br2_track_objects_bt_node
+[1.070s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.072s] [ 80%] Built target patrolling_main
+[1.088s] [ 90%] Built target gtest
+[1.100s] [35m[1mConsolidate compiler generated dependencies of target bt_action_test[0m
+[1.122s] [100%] Built target bt_action_test
+[1.163s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[1.218s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_bt_patrolling
+[1.227s] -- Install configuration: "Debug"
+[1.227s] -- Execute custom install script
+[1.227s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_recharge_bt_node.so
+[1.231s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_patrol_bt_node.so
+[1.231s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_move_bt_node.so
+[1.231s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_get_waypoint_bt_node.so
+[1.231s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_battery_checker_bt_node.so
+[1.231s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_track_objects_bt_node.so
+[1.231s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/lib/br2_bt_patrolling/patrolling_main
+[1.232s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/BatteryChecker.hpp
+[1.232s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/GetWaypoint.hpp
+[1.232s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Move.hpp
+[1.232s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Patrol.hpp
+[1.232s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Recharge.hpp
+[1.232s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/TrackObjects.hpp
+[1.233s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTActionNode.hpp
+[1.233s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTLifecycleCtrlNode.hpp
+[1.234s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/behavior_tree_xml/patrolling.xml
+[1.235s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/launch/patrolling.launch.py
+[1.235s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/package_run_dependencies/br2_bt_patrolling
+[1.235s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/parent_prefix_path/br2_bt_patrolling
+[1.236s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.sh
+[1.236s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.dsv
+[1.237s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.sh
+[1.237s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.dsv
+[1.237s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.bash
+[1.237s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.sh
+[1.237s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.zsh
+[1.240s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.dsv
+[1.240s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.dsv
+[1.254s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/packages/br2_bt_patrolling
+[1.255s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.255s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.255s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig.cmake
+[1.256s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig-version.cmake
+[1.256s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.xml
+[1.261s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_bt_patrolling

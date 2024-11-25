@@ -1,0 +1,64 @@
+[0.026s] Invoking command in '/home/alejandro/bookros2_ws/build/hey5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/hey5_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/hey5_description
+[0.777s] -- The C compiler identification is GNU 11.4.0
+[0.778s] -- The CXX compiler identification is GNU 11.4.0
+[0.778s] -- Detecting C compiler ABI info
+[0.778s] -- Detecting C compiler ABI info - done
+[0.778s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.778s] -- Detecting C compile features
+[0.778s] -- Detecting C compile features - done
+[0.778s] -- Detecting CXX compiler ABI info
+[0.778s] -- Detecting CXX compiler ABI info - done
+[0.780s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.781s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.781s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.390s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.527s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.607s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.835s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.846s] -- Added test 'lint_cmake' to check CMake code style
+[1.854s] -- Added test 'xmllint' to check XML markup files
+[1.858s] -- Configuring done
+[1.862s] -- Generating done
+[1.864s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/hey5_description
+[1.875s] Invoked command in '/home/alejandro/bookros2_ws/build/hey5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/hey5_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/hey5_description
+[1.875s] Invoking command in '/home/alejandro/bookros2_ws/build/hey5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/hey5_description -- -j8 -l8
+[3.889s] Invoked command in '/home/alejandro/bookros2_ws/build/hey5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/hey5_description -- -j8 -l8
+[3.927s] Invoking command in '/home/alejandro/bookros2_ws/build/hey5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/hey5_description
+[26.682s] -- Install configuration: ""
+[26.682s] -- Execute custom install script
+[26.682s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/config/two_hands.rviz
+[26.682s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/gazebo/gazebo.urdf.xacro
+[26.682s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/launch/hey5_kinematics_test.launch
+[26.682s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/finger_abd_collision.stl
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/finger_flex_collision.stl
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/finger_flex_tip_collision.stl
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/palm.stl
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/palm_collision.stl
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/thumb_abd_collision.stl
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/robots/hey5_test.urdf.xacro
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/actuators.urdf.xacro
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/deg_to_rad.urdf.xacro
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/fingers.urdf.xacro
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/hey5.ros2_control.xacro
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/hey5.transmission.xacro
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/hey5_hand.urdf.xacro
+[26.683s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/materials.urdf.xacro
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/palm.urdf.xacro
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/transmissions.urdf.xacro
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/ament_index/resource_index/package_run_dependencies/hey5_description
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/ament_index/resource_index/parent_prefix_path/hey5_description
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/environment/ament_prefix_path.sh
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/environment/ament_prefix_path.dsv
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/environment/path.sh
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/environment/path.dsv
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/local_setup.bash
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/local_setup.sh
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/local_setup.zsh
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/local_setup.dsv
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/package.dsv
+[26.684s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/ament_index/resource_index/packages/hey5_description
+[26.685s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/cmake/hey5_descriptionConfig.cmake
+[26.685s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/cmake/hey5_descriptionConfig-version.cmake
+[26.685s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/package.xml
+[26.695s] Invoked command in '/home/alejandro/bookros2_ws/build/hey5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/hey5_description

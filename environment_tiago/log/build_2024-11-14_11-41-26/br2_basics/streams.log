@@ -1,0 +1,44 @@
+[0.513s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_basics -- -j8 -l8
+[0.689s] [ 12%] Built target param_reader
+[0.689s] [ 25%] Built target publisher
+[0.689s] [ 37%] Built target executors
+[0.690s] [ 50%] Built target subscriber
+[0.705s] [ 62%] Built target publisher_class
+[0.706s] [ 75%] Built target logger
+[0.717s] [ 87%] Built target logger_class
+[0.718s] [100%] Built target subscriber_class
+[0.744s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_basics -- -j8 -l8
+[0.917s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_basics
+[0.961s] -- Install configuration: ""
+[0.962s] -- Execute custom install script
+[0.962s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/lib/br2_basics/publisher
+[0.962s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/lib/br2_basics/publisher_class
+[0.962s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/lib/br2_basics/subscriber
+[0.963s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/lib/br2_basics/subscriber_class
+[0.963s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/lib/br2_basics/executors
+[0.964s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/lib/br2_basics/logger
+[0.965s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/lib/br2_basics/logger_class
+[0.965s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/lib/br2_basics/param_reader
+[0.965s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/launch/includer_launch.py
+[0.965s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/launch/param_node_v1_launch.py
+[0.965s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/launch/param_node_v2_launch.py
+[0.968s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/launch/pub_sub_v1_launch.py
+[0.968s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/launch/pub_sub_v2_launch.py
+[0.969s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/config/params.yaml
+[0.970s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/ament_index/resource_index/package_run_dependencies/br2_basics
+[0.970s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/ament_index/resource_index/parent_prefix_path/br2_basics
+[0.970s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/environment/ament_prefix_path.sh
+[0.970s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/environment/ament_prefix_path.dsv
+[0.975s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/environment/path.sh
+[0.975s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/environment/path.dsv
+[0.975s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.bash
+[0.976s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.sh
+[0.976s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.zsh
+[0.976s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.dsv
+[0.976s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/package.dsv
+[0.997s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/ament_index/resource_index/packages/br2_basics
+[0.998s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.999s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig.cmake
+[1.002s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig-version.cmake
+[1.003s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_basics/share/br2_basics/package.xml
+[1.082s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_basics

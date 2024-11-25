@@ -1,0 +1,47 @@
+[0.010s] Invoking command in '/home/alejandro/bookros2_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/pal_gripper/pal_gripper_description -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/pal_gripper_description
+[0.020s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.130s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.136s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.245s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.261s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.268s] -- Added test 'lint_cmake' to check CMake code style
+[0.269s] -- Added test 'xmllint' to check XML markup files
+[0.272s] -- Configuring done
+[0.277s] -- Generating done
+[0.278s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/pal_gripper_description
+[0.281s] Invoked command in '/home/alejandro/bookros2_ws/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/pal_gripper/pal_gripper_description -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/pal_gripper_description
+[0.282s] Invoking command in '/home/alejandro/bookros2_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/pal_gripper_description -- -j8 -l8
+[0.317s] Invoked command in '/home/alejandro/bookros2_ws/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/pal_gripper_description -- -j8 -l8
+[0.336s] Invoking command in '/home/alejandro/bookros2_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/pal_gripper_description
+[0.344s] -- Install configuration: ""
+[0.344s] -- Execute custom install script
+[0.345s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/gazebo/gazebo.urdf.xacro
+[0.345s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link.stl
+[0.345s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link_collision.stl
+[0.345s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link.stl
+[0.345s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link_collision.stl
+[0.346s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/robots/gripper_test.urdf.xacro
+[0.346s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload.launch
+[0.346s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload_gripper.launch
+[0.347s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.gazebo.xacro
+[0.347s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.ros2_control.xacro
+[0.347s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.transmission.xacro
+[0.347s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.urdf.xacro
+[0.347s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/ros2_control/ros2_control.urdf.xacro
+[0.348s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/ament_index/resource_index/package_run_dependencies/pal_gripper_description
+[0.348s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/ament_index/resource_index/parent_prefix_path/pal_gripper_description
+[0.349s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.sh
+[0.349s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.dsv
+[0.349s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.sh
+[0.349s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.dsv
+[0.350s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.bash
+[0.350s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.sh
+[0.350s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.zsh
+[0.350s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.dsv
+[0.351s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/package.dsv
+[0.362s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/ament_index/resource_index/packages/pal_gripper_description
+[0.362s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.362s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig.cmake
+[0.362s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig-version.cmake
+[0.363s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/pal_gripper_description/share/pal_gripper_description/package.xml
+[0.365s] Invoked command in '/home/alejandro/bookros2_ws/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/urdf_test:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble PYTHONPATH=/home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/pal_gripper_description

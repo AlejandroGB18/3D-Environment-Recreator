@@ -1,0 +1,28 @@
+[1.254s] Invoking command in '/home/alejandro/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_py': PYTHONPATH=/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/br2_fsm_bumpgo_py build --build-base /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/build install --record /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/install.log --single-version-externally-managed install_data
+[1.406s] /home/alejandro/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[1.406s]   warnings.warn(msg)
+[1.542s] running egg_info
+[1.564s] writing ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/PKG-INFO
+[1.565s] writing dependency_links to ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/dependency_links.txt
+[1.565s] writing entry points to ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/entry_points.txt
+[1.565s] writing requirements to ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/requires.txt
+[1.565s] writing top-level names to ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/top_level.txt
+[1.614s] reading manifest file '../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/SOURCES.txt'
+[1.615s] writing manifest file '../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/SOURCES.txt'
+[1.615s] running build
+[1.615s] running build_py
+[1.616s] copying br2_fsm_bumpgo_py/__init__.py -> /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/build/lib/br2_fsm_bumpgo_py
+[1.616s] copying br2_fsm_bumpgo_py/bump_go_main.py -> /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/build/lib/br2_fsm_bumpgo_py
+[1.617s] running install
+[1.622s] running install_lib
+[1.648s] running install_data
+[1.648s] copying resource/br2_fsm_bumpgo_py -> /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/share/ament_index/resource_index/packages
+[1.648s] copying package.xml -> /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/share/br2_fsm_bumpgo_py
+[1.649s] copying launch/bump_and_go.launch.py -> /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/share/br2_fsm_bumpgo_py/launch
+[1.649s] running install_egg_info
+[1.681s] removing '/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages/br2_fsm_bumpgo_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.681s] Copying ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info to /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages/br2_fsm_bumpgo_py-0.0.0-py3.10.egg-info
+[1.681s] running install_scripts
+[1.872s] Installing bump_go_main script to /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/br2_fsm_bumpgo_py
+[1.872s] writing list of installed files to '/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/install.log'
+[1.900s] Invoked command in '/home/alejandro/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_py' returned '0': PYTHONPATH=/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/br2_fsm_bumpgo_py build --build-base /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/build install --record /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/install.log --single-version-externally-managed install_data

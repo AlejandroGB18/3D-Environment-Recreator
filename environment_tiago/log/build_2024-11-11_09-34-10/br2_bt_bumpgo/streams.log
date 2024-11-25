@@ -1,0 +1,82 @@
+[0.035s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_bt_bumpgo -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_bt_bumpgo
+[0.052s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.207s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.215s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.247s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.249s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.256s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.346s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.350s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.505s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.566s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.596s] -- ZeroMQ found.
+[0.604s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.722s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.733s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.735s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.735s] -- Configured cppcheck include dirs: /home/alejandro/bookros2_ws/src/book_ros2/br2_bt_bumpgo/include
+[0.735s] -- Configured cppcheck exclude dirs and/or files: 
+[0.737s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.737s] -- Configured cpplint exclude dirs and/or files: 
+[0.738s] -- Added test 'lint_cmake' to check CMake code style
+[0.739s] -- Added test 'uncrustify' to check C / C++ code style
+[0.739s] -- Configured uncrustify additional arguments: 
+[0.740s] -- Added test 'xmllint' to check XML markup files
+[0.743s] -- Configuring done
+[0.792s] -- Generating done
+[0.795s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/br2_bt_bumpgo
+[0.826s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_bt_bumpgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_bt_bumpgo -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_bt_bumpgo
+[0.826s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_bt_bumpgo -- -j8 -l8
+[0.873s] [35m[1mConsolidate compiler generated dependencies of target br2_back_bt_node[0m
+[0.873s] [35m[1mConsolidate compiler generated dependencies of target br2_forward_bt_node[0m
+[0.877s] [35m[1mConsolidate compiler generated dependencies of target br2_turn_bt_node[0m
+[0.880s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.882s] [35m[1mConsolidate compiler generated dependencies of target bt_bumpgo[0m
+[0.890s] [35m[1mConsolidate compiler generated dependencies of target br2_is_obstacle_bt_node[0m
+[0.890s] [35m[1mConsolidate compiler generated dependencies of target bt_forward[0m
+[0.897s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.914s] [ 11%] Built target br2_forward_bt_node
+[0.914s] [ 22%] Built target bt_bumpgo
+[0.917s] [ 44%] Built target gtest
+[0.918s] [ 44%] Built target br2_back_bt_node
+[0.921s] [ 55%] Built target gtest_main
+[0.922s] [ 66%] Built target br2_is_obstacle_bt_node
+[0.924s] [ 77%] Built target br2_turn_bt_node
+[0.928s] [ 88%] Built target bt_forward
+[0.940s] [35m[1mConsolidate compiler generated dependencies of target bt_action_test[0m
+[0.962s] [100%] Built target bt_action_test
+[0.995s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_bt_bumpgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_bt_bumpgo -- -j8 -l8
+[1.102s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_bt_bumpgo
+[1.116s] -- Install configuration: ""
+[1.116s] -- Execute custom install script
+[1.119s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_forward_bt_node.so
+[1.121s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_back_bt_node.so
+[1.121s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_turn_bt_node.so
+[1.121s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_is_obstacle_bt_node.so
+[1.121s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/lib/br2_bt_bumpgo/bt_bumpgo
+[1.123s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/Back.hpp
+[1.123s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/Forward.hpp
+[1.123s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/IsObstacle.hpp
+[1.123s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/Turn.hpp
+[1.124s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/behavior_tree_xml/bumpgo.xml
+[1.125s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/lib/br2_bt_bumpgo/bt_forward
+[1.125s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/ament_index/resource_index/package_run_dependencies/br2_bt_bumpgo
+[1.126s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/ament_index/resource_index/parent_prefix_path/br2_bt_bumpgo
+[1.127s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/ament_prefix_path.sh
+[1.127s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/ament_prefix_path.dsv
+[1.127s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/path.sh
+[1.127s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/path.dsv
+[1.129s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.bash
+[1.129s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.sh
+[1.129s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.zsh
+[1.130s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.dsv
+[1.130s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/package.dsv
+[1.146s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/ament_index/resource_index/packages/br2_bt_bumpgo
+[1.146s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.147s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.147s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/br2_bt_bumpgoConfig.cmake
+[1.147s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/br2_bt_bumpgoConfig-version.cmake
+[1.147s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/package.xml
+[1.152s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_bt_bumpgo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_bt_bumpgo

@@ -1,0 +1,42 @@
+[0.035s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tiago': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_tiago -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_tiago
+[1.176s] -- The C compiler identification is GNU 11.4.0
+[1.176s] -- The CXX compiler identification is GNU 11.4.0
+[1.176s] -- Detecting C compiler ABI info
+[1.176s] -- Detecting C compiler ABI info - done
+[1.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.176s] -- Detecting C compile features
+[1.176s] -- Detecting C compile features - done
+[1.176s] -- Detecting CXX compiler ABI info
+[1.176s] -- Detecting CXX compiler ABI info - done
+[1.177s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.177s] -- Detecting CXX compile features
+[1.177s] -- Detecting CXX compile features - done
+[1.177s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.350s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.574s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.964s] -- Configuring done
+[2.976s] -- Generating done
+[2.978s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/br2_tiago
+[3.008s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tiago' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_tiago -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_tiago
+[3.009s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tiago': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tiago -- -j8 -l8
+[6.949s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tiago' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tiago -- -j8 -l8
+[7.026s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tiago': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tiago
+[10.025s] -- Install configuration: ""
+[10.025s] -- Execute custom install script
+[10.025s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/launch/sim.launch.py
+[10.025s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/package_run_dependencies/br2_tiago
+[10.025s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/parent_prefix_path/br2_tiago
+[10.025s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.sh
+[10.025s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.dsv
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/path.sh
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/environment/path.dsv
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.bash
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.sh
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.zsh
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/local_setup.dsv
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/package.dsv
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/ament_index/resource_index/packages/br2_tiago
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig.cmake
+[10.026s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig-version.cmake
+[10.027s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tiago/share/br2_tiago/package.xml
+[10.035s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tiago' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tiago

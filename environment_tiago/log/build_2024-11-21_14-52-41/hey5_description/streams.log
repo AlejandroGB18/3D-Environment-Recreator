@@ -1,0 +1,40 @@
+[0.249s] Invoking command in '/home/alejandro/bookros2_ws/build/hey5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/hey5_description -- -j8 -l8
+[0.543s] Invoked command in '/home/alejandro/bookros2_ws/build/hey5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/hey5_description -- -j8 -l8
+[0.777s] Invoking command in '/home/alejandro/bookros2_ws/build/hey5_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/hey5_description
+[0.844s] -- Install configuration: ""
+[0.845s] -- Execute custom install script
+[0.845s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/config/two_hands.rviz
+[0.846s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/gazebo/gazebo.urdf.xacro
+[0.848s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/launch/hey5_kinematics_test.launch
+[0.848s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/finger_abd_collision.stl
+[0.852s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/finger_flex_collision.stl
+[0.852s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/finger_flex_tip_collision.stl
+[0.854s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/palm.stl
+[0.854s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/palm_collision.stl
+[0.855s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/meshes/thumb_abd_collision.stl
+[0.857s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/robots/hey5_test.urdf.xacro
+[0.859s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/actuators.urdf.xacro
+[0.860s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/deg_to_rad.urdf.xacro
+[0.860s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/fingers.urdf.xacro
+[0.861s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/hey5.ros2_control.xacro
+[0.861s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/hey5.transmission.xacro
+[0.864s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/hey5_hand.urdf.xacro
+[0.872s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/materials.urdf.xacro
+[0.873s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/palm.urdf.xacro
+[0.877s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/urdf/transmissions.urdf.xacro
+[0.881s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/ament_index/resource_index/package_run_dependencies/hey5_description
+[0.892s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/ament_index/resource_index/parent_prefix_path/hey5_description
+[0.894s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/environment/ament_prefix_path.sh
+[0.898s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/environment/ament_prefix_path.dsv
+[0.898s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/environment/path.sh
+[0.898s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/environment/path.dsv
+[0.898s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/local_setup.bash
+[0.898s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/local_setup.sh
+[0.898s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/local_setup.zsh
+[0.898s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/local_setup.dsv
+[0.898s] -- Symlinking: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/package.dsv
+[0.956s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/ament_index/resource_index/packages/hey5_description
+[0.964s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/cmake/hey5_descriptionConfig.cmake
+[0.965s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/cmake/hey5_descriptionConfig-version.cmake
+[0.965s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/hey5_description/share/hey5_description/package.xml
+[1.063s] Invoked command in '/home/alejandro/bookros2_ws/build/hey5_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/hey5_description

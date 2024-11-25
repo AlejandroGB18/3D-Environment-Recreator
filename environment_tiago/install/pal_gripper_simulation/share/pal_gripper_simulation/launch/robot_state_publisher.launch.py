@@ -1,0 +1,1 @@
+/home/alejandro/bookros2_ws/src/ThirdParty/pal_gripper/pal_gripper_simulation/launch/robot_state_publisher.launch.py

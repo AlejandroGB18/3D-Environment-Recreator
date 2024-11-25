@@ -1,0 +1,39 @@
+[6.998s] Invoking command in '/home/alejandro/bookros2_ws/src/ThirdParty/launch_pal': PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_pal build --build-base /home/alejandro/bookros2_ws/build/launch_pal/build install --record /home/alejandro/bookros2_ws/build/launch_pal/install.log --single-version-externally-managed install_data
+[8.248s] /home/alejandro/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+[8.249s]   warnings.warn(msg)
+[8.982s] running egg_info
+[9.050s] writing ../../../build/launch_pal/launch_pal.egg-info/PKG-INFO
+[9.050s] writing dependency_links to ../../../build/launch_pal/launch_pal.egg-info/dependency_links.txt
+[9.051s] writing requirements to ../../../build/launch_pal/launch_pal.egg-info/requires.txt
+[9.052s] writing top-level names to ../../../build/launch_pal/launch_pal.egg-info/top_level.txt
+[9.221s] reading manifest file '../../../build/launch_pal/launch_pal.egg-info/SOURCES.txt'
+[9.221s] adding license file 'LICENSE'
+[9.223s] writing manifest file '../../../build/launch_pal/launch_pal.egg-info/SOURCES.txt'
+[9.223s] running build
+[9.224s] running build_py
+[9.224s] copying launch_pal/include_utils.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal
+[9.224s] copying launch_pal/composition_utils.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal
+[9.225s] copying launch_pal/arg_utils.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal
+[9.225s] copying launch_pal/pal_parameters.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal
+[9.225s] copying launch_pal/param_utils.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal
+[9.225s] copying launch_pal/robot_utils.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal
+[9.227s] copying launch_pal/__init__.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal
+[9.227s] copying launch_pal/substitutions/load_file.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal/substitutions
+[9.228s] copying launch_pal/substitutions/__init__.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal/substitutions
+[9.228s] copying launch_pal/robot_arguments/common.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal/robot_arguments
+[9.228s] copying launch_pal/robot_arguments/robot.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal/robot_arguments
+[9.228s] copying launch_pal/robot_arguments/__init__.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal/robot_arguments
+[9.229s] copying launch_pal/actions/__init__.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal/actions
+[9.229s] copying launch_pal/actions/check_public_sim.py -> /home/alejandro/bookros2_ws/build/launch_pal/build/lib/launch_pal/actions
+[9.230s] running install
+[9.259s] running install_lib
+[9.382s] running install_data
+[9.382s] copying resource/launch_pal -> /home/alejandro/bookros2_ws/install/launch_pal/share/ament_index/resource_index/packages
+[9.382s] copying package.xml -> /home/alejandro/bookros2_ws/install/launch_pal/share/launch_pal
+[9.389s] copying config/robot_configuration.yaml -> /home/alejandro/bookros2_ws/install/launch_pal/share/launch_pal/config
+[9.389s] running install_egg_info
+[9.473s] removing '/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal-0.1.15-py3.10.egg-info' (and everything under it)
+[9.476s] Copying ../../../build/launch_pal/launch_pal.egg-info to /home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages/launch_pal-0.1.15-py3.10.egg-info
+[9.482s] running install_scripts
+[10.036s] writing list of installed files to '/home/alejandro/bookros2_ws/build/launch_pal/install.log'
+[10.172s] Invoked command in '/home/alejandro/bookros2_ws/src/ThirdParty/launch_pal' returned '0': PYTHONPATH=/home/alejandro/bookros2_ws/build/launch_pal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alejandro/bookros2_ws/install/launch_pal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/launch_pal build --build-base /home/alejandro/bookros2_ws/build/launch_pal/build install --record /home/alejandro/bookros2_ws/build/launch_pal/install.log --single-version-externally-managed install_data

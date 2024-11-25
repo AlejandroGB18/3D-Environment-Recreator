@@ -1,0 +1,30 @@
+[0.288s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_vff_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_vff_avoidance -- -j8 -l8
+[0.602s] [ 20%] Built target br2_vff_avoidance
+[0.720s] [ 40%] Built target gtest
+[0.868s] [ 60%] Built target avoidance_vff
+[0.959s] [ 80%] Built target gtest_main
+[1.103s] [100%] Built target vff_test
+[1.175s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_vff_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_vff_avoidance -- -j8 -l8
+[1.387s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_vff_avoidance': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_vff_avoidance
+[1.431s] -- Install configuration: "Debug"
+[1.432s] -- Execute custom install script
+[1.442s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/lib/libbr2_vff_avoidance.so
+[1.443s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/lib/br2_vff_avoidance/avoidance_vff
+[1.445s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/launch/avoidance_vff.launch.py
+[1.446s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/ament_index/resource_index/package_run_dependencies/br2_vff_avoidance
+[1.446s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/ament_index/resource_index/parent_prefix_path/br2_vff_avoidance
+[1.447s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/environment/ament_prefix_path.sh
+[1.447s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/environment/ament_prefix_path.dsv
+[1.448s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/environment/path.sh
+[1.449s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/environment/path.dsv
+[1.464s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/local_setup.bash
+[1.466s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/local_setup.sh
+[1.468s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/local_setup.zsh
+[1.471s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/local_setup.dsv
+[1.471s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/package.dsv
+[1.511s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/ament_index/resource_index/packages/br2_vff_avoidance
+[1.511s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.514s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/cmake/br2_vff_avoidanceConfig.cmake
+[1.514s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/cmake/br2_vff_avoidanceConfig-version.cmake
+[1.520s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/package.xml
+[1.531s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_vff_avoidance' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_vff_avoidance

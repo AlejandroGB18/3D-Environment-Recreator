@@ -1,0 +1,6 @@
+source;share/br2_fsm_bumpgo_py/hook/pythonpath.ps1
+source;share/br2_fsm_bumpgo_py/hook/pythonpath.dsv
+source;share/br2_fsm_bumpgo_py/hook/pythonpath.sh
+source;share/br2_fsm_bumpgo_py/hook/ament_prefix_path.ps1
+source;share/br2_fsm_bumpgo_py/hook/ament_prefix_path.dsv
+source;share/br2_fsm_bumpgo_py/hook/ament_prefix_path.sh

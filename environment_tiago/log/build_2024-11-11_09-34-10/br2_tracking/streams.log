@@ -1,0 +1,83 @@
+[0.020s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tracking': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_tracking -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_tracking
+[0.050s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.205s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.216s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.253s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.253s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.263s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.334s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.336s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.526s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.546s] -- Found br2_tracking_msgs: 0.2.0 (/home/alejandro/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake)
+[0.557s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.591s] -- Found vision_msgs: 4.1.1 (/opt/ros/humble/share/vision_msgs/cmake)
+[0.612s] -- Found control_msgs: 4.6.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.693s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[0.723s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.749s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.841s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.852s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.853s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.854s] -- Configured cppcheck include dirs: /home/alejandro/bookros2_ws/src/book_ros2/br2_tracking/include
+[0.854s] -- Configured cppcheck exclude dirs and/or files: 
+[0.855s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.855s] -- Configured cpplint exclude dirs and/or files: 
+[0.855s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.856s] -- Added test 'lint_cmake' to check CMake code style
+[0.856s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.857s] -- Added test 'uncrustify' to check C / C++ code style
+[0.857s] -- Configured uncrustify additional arguments: 
+[0.857s] -- Added test 'xmllint' to check XML markup files
+[0.860s] -- Configuring done
+[0.907s] -- Generating done
+[0.911s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/br2_tracking
+[0.931s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tracking' returned '0': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_tracking -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_tracking
+[0.933s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tracking': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tracking -- -j8 -l8
+[0.980s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.980s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.985s] [35m[1mConsolidate compiler generated dependencies of target br2_tracking[0m
+[0.995s] [ 28%] Built target gtest
+[0.995s] [ 28%] Built target gtest_main
+[1.015s] [ 57%] Built target br2_tracking
+[1.027s] [35m[1mConsolidate compiler generated dependencies of target pid_test[0m
+[1.029s] [35m[1mConsolidate compiler generated dependencies of target object_tracker[0m
+[1.031s] [35m[1mConsolidate compiler generated dependencies of target object_detector[0m
+[1.044s] [ 71%] Built target pid_test
+[1.049s] [ 85%] Built target object_tracker
+[1.049s] [100%] Built target object_detector
+[1.061s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tracking' returned '0': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tracking -- -j8 -l8
+[1.096s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tracking': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tracking
+[1.103s] -- Install configuration: "Debug"
+[1.103s] -- Execute custom install script
+[1.103s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/lib/libbr2_tracking.so
+[1.103s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/lib/br2_tracking/object_detector
+[1.103s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/lib/br2_tracking/object_tracker
+[1.103s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/include/include/br2_tracking/HeadController.hpp
+[1.103s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/include/include/br2_tracking/ObjectDetector.hpp
+[1.104s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/include/include/br2_tracking/PIDController.hpp
+[1.104s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/launch/tracking.launch.py
+[1.104s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/config/detector.yaml
+[1.105s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/library_path.sh
+[1.105s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/library_path.dsv
+[1.105s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/ament_index/resource_index/package_run_dependencies/br2_tracking
+[1.105s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/ament_index/resource_index/parent_prefix_path/br2_tracking
+[1.106s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/ament_prefix_path.sh
+[1.106s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/ament_prefix_path.dsv
+[1.106s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/path.sh
+[1.106s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/path.dsv
+[1.106s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.bash
+[1.106s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.sh
+[1.107s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.zsh
+[1.107s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.dsv
+[1.107s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/package.dsv
+[1.115s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/ament_index/resource_index/packages/br2_tracking
+[1.116s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.116s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/ament_cmake_export_libraries-extras.cmake
+[1.116s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.116s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/br2_trackingConfig.cmake
+[1.116s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/br2_trackingConfig-version.cmake
+[1.117s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tracking/share/br2_tracking/package.xml
+[1.119s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tracking' returned '0': AMENT_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs:/home/alejandro/ros2_utilities_ws/install/micro_ros_setup:/home/alejandro/ros2_utilities_ws/install/micro_ros_agent:/home/alejandro/ros2_utilities_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alejandro/bookros2_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tracking

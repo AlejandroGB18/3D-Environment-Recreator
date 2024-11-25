@@ -1,0 +1,59 @@
+[0.255s] Invoking command in '/home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/pal_gripper/pal_gripper_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration
+[0.399s] -- The C compiler identification is GNU 11.4.0
+[0.539s] -- The CXX compiler identification is GNU 11.4.0
+[0.546s] -- Detecting C compiler ABI info
+[0.649s] -- Detecting C compiler ABI info - done
+[0.658s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.658s] -- Detecting C compile features
+[0.658s] -- Detecting C compile features - done
+[0.662s] -- Detecting CXX compiler ABI info
+[0.776s] -- Detecting CXX compiler ABI info - done
+[0.789s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.789s] -- Detecting CXX compile features
+[0.798s] -- Detecting CXX compile features - done
+[0.798s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.543s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.659s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.718s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.869s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.872s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.873s] -- Added test 'lint_cmake' to check CMake code style
+[1.876s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.877s] -- Added test 'xmllint' to check XML markup files
+[1.880s] -- Configuring done
+[1.882s] -- Generating done
+[1.883s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration
+[1.888s] Invoked command in '/home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/ThirdParty/pal_gripper/pal_gripper_controller_configuration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration
+[1.890s] Invoking command in '/home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration -- -j8 -l8
+[1.944s] Invoked command in '/home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration -- -j8 -l8
+[1.974s] Invoking command in '/home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration
+[2.161s] -- Install configuration: ""
+[2.162s] -- Execute custom install script
+[2.162s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/current_limit_controllers.yaml
+[2.162s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/current_limit_controllers_left.yaml
+[2.162s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/current_limit_controllers_right.yaml
+[2.162s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/gazebo_controller_manager_cfg.yaml
+[2.162s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/gripper_controller.yaml
+[2.162s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/joint_state_broadcaster.yaml
+[2.162s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/joint_trajectory_controllers.yaml
+[2.165s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/config/pids.yaml
+[2.165s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/current_limit_controllers.launch
+[2.166s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/gripper_controller.launch
+[2.166s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/joint_state_broadcaster.launch.py
+[2.166s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/launch/pal_gripper_controller.launch.py
+[2.166s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pal_gripper_controller_configuration
+[2.166s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pal_gripper_controller_configuration
+[2.166s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/ament_prefix_path.sh
+[2.166s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/ament_prefix_path.dsv
+[2.168s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/path.sh
+[2.175s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/environment/path.dsv
+[2.186s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.bash
+[2.197s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.sh
+[2.213s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.zsh
+[2.228s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/local_setup.dsv
+[2.239s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/package.dsv
+[2.253s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/ament_index/resource_index/packages/pal_gripper_controller_configuration
+[2.261s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/cmake/pal_gripper_controller_configurationConfig.cmake
+[2.271s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/cmake/pal_gripper_controller_configurationConfig-version.cmake
+[2.288s] -- Symlinking: /home/alejandro/bookros2_ws/install/pal_gripper_controller_configuration/share/pal_gripper_controller_configuration/package.xml
+[2.317s] Invoked command in '/home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/pal_gripper_controller_configuration

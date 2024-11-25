@@ -1,0 +1,41 @@
+[0.841s] Invoking command in '/home/alejandro/bookros2_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/urdf_test -- -j8 -l8
+[1.043s] Built target ament_cmake_python_symlink_urdf_test
+[2.448s] running egg_info
+[2.521s] writing urdf_test.egg-info/PKG-INFO
+[2.531s] writing dependency_links to urdf_test.egg-info/dependency_links.txt
+[2.534s] writing top-level names to urdf_test.egg-info/top_level.txt
+[2.892s] reading manifest file 'urdf_test.egg-info/SOURCES.txt'
+[2.895s] writing manifest file 'urdf_test.egg-info/SOURCES.txt'
+[3.087s] Built target ament_cmake_python_build_urdf_test_egg
+[3.352s] Invoked command in '/home/alejandro/bookros2_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/urdf_test -- -j8 -l8
+[3.512s] Invoking command in '/home/alejandro/bookros2_ws/build/urdf_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/urdf_test
+[3.549s] -- Install configuration: ""
+[3.549s] -- Execute custom install script
+[3.551s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/lib/urdf_test/test_urdf.py
+[3.554s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/environment/pythonpath.sh
+[3.555s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/environment/pythonpath.dsv
+[3.556s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.1.0-py3.10.egg-info/PKG-INFO
+[3.556s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.1.0-py3.10.egg-info/SOURCES.txt
+[3.557s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.1.0-py3.10.egg-info/dependency_links.txt
+[3.557s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test-2.1.0-py3.10.egg-info/top_level.txt
+[3.561s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/__init__.py
+[3.563s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/description_test.py
+[3.565s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test/xacro_test.py
+[3.571s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/ament_index/resource_index/package_run_dependencies/urdf_test
+[3.574s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/ament_index/resource_index/parent_prefix_path/urdf_test
+[3.574s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.sh
+[3.575s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/environment/ament_prefix_path.dsv
+[3.576s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/environment/path.sh
+[3.579s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/environment/path.dsv
+[3.583s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/local_setup.bash
+[3.583s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/local_setup.sh
+[3.584s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/local_setup.zsh
+[3.584s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/local_setup.dsv
+[3.585s] -- Symlinking: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/package.dsv
+[3.616s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/ament_index/resource_index/packages/urdf_test
+[3.617s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.627s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig.cmake
+[3.637s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/cmake/urdf_testConfig-version.cmake
+[3.637s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/urdf_test/share/urdf_test/package.xml
+[3.793s] Listing '/home/alejandro/bookros2_ws/install/urdf_test/local/lib/python3.10/dist-packages/urdf_test'...
+[3.894s] Invoked command in '/home/alejandro/bookros2_ws/build/urdf_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/urdf_test

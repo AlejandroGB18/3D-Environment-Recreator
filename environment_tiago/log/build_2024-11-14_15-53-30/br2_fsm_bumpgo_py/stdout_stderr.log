@@ -1,0 +1,26 @@
+/home/alejandro/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:268: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/PKG-INFO
+writing dependency_links to ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/dependency_links.txt
+writing entry points to ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/entry_points.txt
+writing requirements to ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/requires.txt
+writing top-level names to ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/top_level.txt
+reading manifest file '../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/SOURCES.txt'
+writing manifest file '../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying br2_fsm_bumpgo_py/__init__.py -> /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/build/lib/br2_fsm_bumpgo_py
+copying br2_fsm_bumpgo_py/bump_go_main.py -> /home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/build/lib/br2_fsm_bumpgo_py
+running install
+running install_lib
+running install_data
+copying resource/br2_fsm_bumpgo_py -> /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/share/br2_fsm_bumpgo_py
+copying launch/bump_and_go.launch.py -> /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/share/br2_fsm_bumpgo_py/launch
+running install_egg_info
+removing '/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages/br2_fsm_bumpgo_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/br2_fsm_bumpgo_py/br2_fsm_bumpgo_py.egg-info to /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages/br2_fsm_bumpgo_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bump_go_main script to /home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py/lib/br2_fsm_bumpgo_py
+writing list of installed files to '/home/alejandro/bookros2_ws/build/br2_fsm_bumpgo_py/install.log'

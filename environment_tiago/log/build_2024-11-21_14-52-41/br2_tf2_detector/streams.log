@@ -1,0 +1,29 @@
+[0.221s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[0.575s] [ 50%] Built target br2_tf2_detector
+[0.733s] [ 75%] Built target detector
+[0.899s] [100%] Built target detector_improved
+[1.191s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[1.537s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tf2_detector
+[1.621s] -- Install configuration: ""
+[1.621s] -- Execute custom install script
+[1.621s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/lib/libbr2_tf2_detector.so
+[1.622s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector
+[1.622s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector_improved
+[1.622s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_basic.launch.py
+[1.623s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_improved.launch.py
+[1.623s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/package_run_dependencies/br2_tf2_detector
+[1.623s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/parent_prefix_path/br2_tf2_detector
+[1.623s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.sh
+[1.623s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.dsv
+[1.623s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.sh
+[1.628s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.dsv
+[1.628s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.bash
+[1.629s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.sh
+[1.629s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.zsh
+[1.629s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.dsv
+[1.629s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.dsv
+[1.653s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/packages/br2_tf2_detector
+[1.653s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig.cmake
+[1.654s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig-version.cmake
+[1.655s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.xml
+[1.815s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookros2_ws/install/launch_pal:/home/alejandro/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tf2_detector

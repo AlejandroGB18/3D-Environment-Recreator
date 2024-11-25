@@ -1,0 +1,93 @@
+[0.038s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_tf2_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_tf2_detector
+[3.734s] -- The C compiler identification is GNU 11.4.0
+[3.735s] -- The CXX compiler identification is GNU 11.4.0
+[3.735s] -- Detecting C compiler ABI info
+[3.735s] -- Detecting C compiler ABI info - done
+[3.735s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.735s] -- Detecting C compile features
+[3.735s] -- Detecting C compile features - done
+[3.735s] -- Detecting CXX compiler ABI info
+[3.735s] -- Detecting CXX compiler ABI info - done
+[3.735s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.735s] -- Detecting CXX compile features
+[3.735s] -- Detecting CXX compile features - done
+[3.735s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.735s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.735s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.736s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.784s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.806s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.832s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.883s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.144s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.167s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.540s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.657s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.866s] -- Looking for pthread.h
+[5.129s] -- Looking for pthread.h - found
+[5.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.394s] -- Found Threads: TRUE  
+[5.586s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[6.006s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.064s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.065s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.068s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.077s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.145s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.274s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.596s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.604s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.604s] -- Configured cppcheck include dirs: /home/alejandro/bookros2_ws/src/book_ros2/br2_tf2_detector/include
+[6.605s] -- Configured cppcheck exclude dirs and/or files: 
+[6.609s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.614s] -- Configured cpplint exclude dirs and/or files: 
+[6.615s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.622s] -- Added test 'lint_cmake' to check CMake code style
+[6.622s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.623s] -- Added test 'uncrustify' to check C / C++ code style
+[6.623s] -- Configured uncrustify additional arguments: 
+[6.626s] -- Added test 'xmllint' to check XML markup files
+[6.637s] -- Configuring done
+[6.705s] -- Generating done
+[6.711s] -- Build files have been written to: /home/alejandro/bookros2_ws/build/br2_tf2_detector
+[6.770s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/alejandro/bookros2_ws/src/book_ros2/br2_tf2_detector -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alejandro/bookros2_ws/install/br2_tf2_detector
+[6.771s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[7.475s] [ 12%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o[0m
+[22.813s] [ 25%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorImprovedNode.cpp.o[0m
+[36.496s] [ 37%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleMonitorNode.cpp.o[0m
+[43.998s] [ 50%] [32m[1mLinking CXX shared library libbr2_tf2_detector.so[0m
+[45.199s] [ 50%] Built target br2_tf2_detector
+[45.222s] [ 62%] [32mBuilding CXX object CMakeFiles/detector.dir/src/detector_main.cpp.o[0m
+[50.311s] [ 75%] [32m[1mLinking CXX executable detector[0m
+[50.874s] [ 75%] Built target detector
+[50.899s] [ 87%] [32mBuilding CXX object CMakeFiles/detector_improved.dir/src/detector_improved_main.cpp.o[0m
+[54.364s] [100%] [32m[1mLinking CXX executable detector_improved[0m
+[54.645s] [100%] Built target detector_improved
+[54.656s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[54.691s] Invoking command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tf2_detector
+[54.697s] -- Install configuration: ""
+[54.697s] -- Execute custom install script
+[54.698s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/lib/libbr2_tf2_detector.so
+[54.706s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector
+[54.714s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector_improved
+[54.723s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_basic.launch.py
+[54.731s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_improved.launch.py
+[54.739s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/package_run_dependencies/br2_tf2_detector
+[54.747s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/parent_prefix_path/br2_tf2_detector
+[54.755s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.sh
+[54.763s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.dsv
+[54.771s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.sh
+[54.779s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.dsv
+[54.787s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.bash
+[54.795s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.sh
+[54.803s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.zsh
+[54.812s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.dsv
+[54.821s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.dsv
+[54.829s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/packages/br2_tf2_detector
+[54.837s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig.cmake
+[54.845s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig-version.cmake
+[54.853s] -- Symlinking: /home/alejandro/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.xml
+[54.864s] Invoked command in '/home/alejandro/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/alejandro/bookro2_ws/install/launch_pal:/home/alejandro/bookro2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/br2_tf2_detector

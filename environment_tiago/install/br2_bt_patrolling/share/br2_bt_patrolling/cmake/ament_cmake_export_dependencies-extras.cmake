@@ -1,0 +1,1 @@
+/home/alejandro/bookros2_ws/build/br2_bt_patrolling/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

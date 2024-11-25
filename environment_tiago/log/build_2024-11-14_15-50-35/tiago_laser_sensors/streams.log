@@ -1,0 +1,27 @@
+[0.753s] Invoking command in '/home/alejandro/bookros2_ws/build/tiago_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/tiago_laser_sensors -- -j8 -l8
+[0.860s] Invoked command in '/home/alejandro/bookros2_ws/build/tiago_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/alejandro/bookros2_ws/build/tiago_laser_sensors -- -j8 -l8
+[0.989s] Invoking command in '/home/alejandro/bookros2_ws/build/tiago_laser_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/tiago_laser_sensors
+[1.036s] -- Install configuration: ""
+[1.046s] -- Execute custom install script
+[1.048s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/omni_base_laser_pipeline.yaml
+[1.049s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/omni_base_laser_pipeline_sim.yaml
+[1.049s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/omni_base_laser_pipeline_w_composition.yaml
+[1.049s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/pmb2_laser_pipeline.yaml
+[1.049s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/pmb2_laser_pipeline_sim.yaml
+[1.052s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/params/pmb2_laser_pipeline_w_composition.yaml
+[1.052s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/ament_index/resource_index/package_run_dependencies/tiago_laser_sensors
+[1.052s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/ament_index/resource_index/parent_prefix_path/tiago_laser_sensors
+[1.052s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/ament_prefix_path.sh
+[1.052s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/ament_prefix_path.dsv
+[1.052s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/path.sh
+[1.053s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/path.dsv
+[1.053s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.bash
+[1.053s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.sh
+[1.053s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.zsh
+[1.053s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.dsv
+[1.053s] -- Symlinking: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/package.dsv
+[1.107s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/ament_index/resource_index/packages/tiago_laser_sensors
+[1.109s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig.cmake
+[1.112s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig-version.cmake
+[1.120s] -- Up-to-date symlink: /home/alejandro/bookros2_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/package.xml
+[1.152s] Invoked command in '/home/alejandro/bookros2_ws/build/tiago_laser_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/alejandro/bookros2_ws/build/tiago_laser_sensors
