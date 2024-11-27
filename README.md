@@ -10,3 +10,6 @@ As you can see, we have three folders: **_Gazebo_models_**, **_environment_tiago
 * Ubuntu Systems (NOTE: This project was developed for Ubuntu 22.04 (Jammy), I recommend installing this version to reduce the existing incompatibilities in Ubuntu 24.04 (Noble) for the time being).
 * ROS 2 - Humble. [How to install ROS 2?](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 * Gazebo Classic.
+
+## SETUP: Gazebo_models
+When you have finally installed  Gazebo on your device, it will create a hidden folder _.gazebo_. This folder located in \home and it has
