@@ -99,14 +99,14 @@ class SimEnvNode(Node):
                         <geometry>
                           <mesh>
                             <uri>model://coffee/meshes/Coffee.dae</uri>
-                            <scale>1 1 1</scale> 
+                            <scale>0.60 0.60 0.60</scale> 
                           </mesh>
                         </geometry>
                       </visual>
                       <collision name="collision">
                         <geometry>
                           <box>
-                            <size>0.1 0.1 0.1</size> 
+                            <size>0.05 0.05 0.001</size> 
                           </box>
                         </geometry>
                       </collision>
@@ -124,14 +124,14 @@ class SimEnvNode(Node):
                         <geometry>
                           <mesh>
                             <uri>model://apple/meshes/Apple.dae</uri>
-                            <scale>1 1 1</scale> 
+                            <scale>0.45 0.45 0.45</scale> 
                           </mesh>
                         </geometry>
                       </visual>
                       <collision name="collision">
                         <geometry>
                           <box>
-                            <size>0.1 0.1 0.1</size> 
+                            <size>0.05 0.05 0.001</size> 
                           </box>
                         </geometry>
                       </collision>
@@ -149,14 +149,14 @@ class SimEnvNode(Node):
                         <geometry>
                           <mesh>
                             <uri>model://can/meshes/Can.dae</uri>
-                            <scale>1 1 1</scale> 
+                            <scale>0.45 0.45 0.45</scale> 
                           </mesh>
                         </geometry>
                       </visual>
                       <collision name="collision">
                         <geometry>
                           <box>
-                            <size>0.1 0.1 0.1</size> 
+                            <size>0.05 0.05 0.001</size> 
                           </box>
                         </geometry>
                       </collision>
