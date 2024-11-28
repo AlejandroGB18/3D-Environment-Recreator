@@ -29,11 +29,11 @@ For the gazebo simulation environment with TIAGo integrated in it we rely on the
 _**NOTE:** Due to certain dependencies and requirements that his repository requests when configuring it, we will work it in a particular workspace which not only allows to streamline the construction of changes in the transformation environment (as Francisco's work has 38 packages), but also the reduction of errors._
 
 1. Create a workspace only by creating a directory with a _src_ directory within.
-  ```bash
+   ```bash
    cd
    mkdir -p environment_tiago/src  ## This is a example name, you can use other.
    cd environment_tiago/src
-  ```
+   ```
 2. Then add the packages developed by Francisco Rico through _git clone_.
    ```bash
    git clone -b humble-devel https://github.com/fmrico/book_ros2.git
