@@ -16,4 +16,6 @@ When you have finally installed Gazebo on your device, a hidden folder _.gazebo_
 
 ![Screenshot from 2024-11-28 10-48-08](https://github.com/user-attachments/assets/2a2ac833-d014-4c9d-9fe1-830bf6e2fb6e)
 
-The model folder is the one we are interested, in it we will put the models from the repository folder _Gazebo_models_ (it contains the models for: **apple**. **can** and **coffee**). If you doing this, you can use the 3D models in gazebo.
+The model folder is the one we are interested, in it we will put the models from the repository folder _Gazebo_models_ (it contains the models for: **apple**, **can** and **coffee**). If you doing this, you can use the 3D models in gazebo.
+
+## SETUP: Environment_tiago
