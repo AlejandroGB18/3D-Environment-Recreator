@@ -14,8 +14,11 @@ As you can see, we have three folders: **_Gazebo_models_**, **_environment_tiago
 ## SETUP: Gazebo_models
 When you have finally installed Gazebo on your device, a hidden folder _.gazebo_ will be created. This folder is located in \home and may contain the following folders:
 
-![Screenshot from 2024-11-28 10-48-08](https://github.com/user-attachments/assets/2a2ac833-d014-4c9d-9fe1-830bf6e2fb6e)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2a2ac833-d014-4c9d-9fe1-830bf6e2fb6e" alt="Screenshot from 2024-11-28 10-48-08" width="500">
+</div>
 
 The model folder is the one we are interested, in it we will put the models from the repository folder _Gazebo_models_ (it contains the models for: **apple**, **can** and **coffee**). If you doing this, you can use the 3D models in gazebo.
 
 ## SETUP: Environment_tiago
+For the gazebo simulation environment with TIAGo integrated in it we rely on the work of Francisco Rico, who worked before with a gazebo simulation with TIAGo, so we will explain the construction of his project in our workspace.
