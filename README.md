@@ -24,4 +24,5 @@ The model folder is the one we are interested, in it we will put the models from
 
 
 ## SETUP: Environment_tiago
-For the gazebo simulation environment with TIAGo integrated in it we rely on the work of Francisco Rico, who worked before with a gazebo simulation with TIAGo, so we will explain the construction of his project in our workspace.
+For the gazebo simulation environment with TIAGo integrated in it we rely on the work of Francisco Rico, who previously worked with a Gazebo simulation with TIAGo, so we will explain the construction of his project on our devices and how to link it with our 3D transformation project. 
+_**NOTE:** Due to certain dependencies and requirements that his repository requests when configuring it, we will work it in a particular workspace which not only allows to streamline the construction of changes in the transformation environment (as Francisco's work has 38 packages), but also the reduction of errors._
