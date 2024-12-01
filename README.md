@@ -92,5 +92,25 @@ To be able to execute the packages of the working environments, it is necessary 
 
 Below is indicated how to run each one.
 ### RUN: environment_tiago
+#### Running the Gazebo environment
+1. Use the environment created for the simulation and build the workspace.
+   ```bash
+   cd ~/environment_tiago
+   colcon build
+   ```
+2. Activate the worspace to be able to use the packages.
+   ```bash
+   source install/setup.bash
+   ```
+3. Once activated, run the launch file, if all dependencies and processes were performed correctly, a Gazebo window will be executed as shown below.
+   ```bash
+   ros2 launch br2_tiago sim.launch.py is_public_sim:=True
+   ```
+   
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1c33b8dd-620e-44d1-a6c0-5093494aa45d" alt="gazebo" width="500">
+</div>
+
 ### RUN: ros2_ws
+
 
