@@ -21,6 +21,14 @@ When you have finally installed Gazebo on your device, a hidden folder _.gazebo_
 The model folder is the one we are interested, in it we will put the models from the repository folder _Gazebo_models_ (it contains the models for: **apple**, **can** and **coffee**). If you doing this, you can use the 3D models in gazebo.
 
 ## SETUP: Ros2_ws
+To generate the workspace with the 3D Transformation package on your device, it is quite simple. Since we don't need to create anything from scratch, and using GitHub commands, the process will be as follows:
+
+1. Create a workspace with a _src_ directory.
+   ```bash
+   cd
+   mkdir -p Ros2_ws/src  ## This is a example name, you can use other.
+   ```
+2. 
 
 
 ## SETUP: Environment_tiago
@@ -32,10 +40,10 @@ _**NOTE:** Due to certain dependencies and requirements that his repository requ
    ```bash
    cd
    mkdir -p environment_tiago/src  ## This is a example name, you can use other.
-   cd environment_tiago/src
    ```
 2. Then add the packages developed by Francisco Rico through _git clone_.
    ```bash
+   cd environment_tiago/src
    git clone -b humble-devel https://github.com/fmrico/book_ros2.git
    ```
 3. In this workspace, there are many packages with dependencies on other packages not part of the ROS 2 Humble distribution. To add the sources of these packages to the workspace, we will use the vcstool.
