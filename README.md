@@ -50,7 +50,7 @@ To generate the workspace with the 3D Transformation package on your device, it 
    git checkout main
    ```
 
-## SETUP: Environment_tiago
+# SETUP: Environment_tiago
 For the gazebo simulation environment with TIAGo integrated in it we rely on the work of Francisco Rico, who previously worked with a Gazebo simulation with TIAGo, so we will explain the construction of his project on our devices and how to link it with our 3D transformation project. 
 
 _**NOTE:** Due to certain dependencies and requirements that his repository requests when configuring it, we will work it in a particular workspace which not only allows to streamline the construction of changes in the transformation environment (as Francisco's work has 38 packages), but also the reduction of errors._
@@ -84,3 +84,9 @@ _**NOTE:** Due to certain dependencies and requirements that his repository requ
    ```bash
    source ~/environment_tiago/install/setup.bash
    ```
+
+## RUNS
+To be able to execute the packages of the working environments, it is necessary to understand the order of execution, it will always be the same, even if you decide to make modifications, the order is as follows: 
+1. _environment_tiago_
+2. _ros2_ws_
+Below is indicated how to run each one.
