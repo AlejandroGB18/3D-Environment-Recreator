@@ -89,4 +89,8 @@ _**NOTE:** Due to certain dependencies and requirements that his repository requ
 To be able to execute the packages of the working environments, it is necessary to understand the order of execution, it will always be the same, even if you decide to make modifications, the order is as follows: 
 1. _environment_tiago_
 2. _ros2_ws_
+
 Below is indicated how to run each one.
+# RUN: environment_tiago
+# RUN: ros2_ws
+
