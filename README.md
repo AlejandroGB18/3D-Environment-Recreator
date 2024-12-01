@@ -35,6 +35,7 @@ To generate the workspace with the 3D Transformation package on your device, it 
    ```
 3. Once you are inside the newly cloned repository, initialize _sparse-checkout_.
    ```bash
+   cd 3D-Environment-Recreator
    git sparse-checkout init --cone
    ```
 4. Configure the folder to be cloned, in this case _ros2_ws_.
