@@ -91,6 +91,6 @@ To be able to execute the packages of the working environments, it is necessary 
 2. _ros2_ws_
 
 Below is indicated how to run each one.
-# RUN: environment_tiago
-# RUN: ros2_ws
+### RUN: environment_tiago
+### RUN: ros2_ws
 
