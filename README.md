@@ -28,8 +28,23 @@ To generate the workspace with the 3D Transformation package on your device, it 
    cd
    mkdir -p Ros2_ws/src  ## This is a example name, you can use other.
    ```
-2. 
-
+2. Go to the _src_ folder and **_git clone_** the repository superficially, because we are only interested in keeping the _ros2_ws_ folder to build the package.
+   ```bash
+   cd Ros2_ws/src
+   git clone --no-checkout --filter=blob:none https://github.com/AlejandroGB18/3D-Environment-Recreator.git
+   ```
+3. Once you are inside the newly cloned repository, initialize _sparse-checkout_.
+   ```bash
+   git sparse-checkout init --cone
+   ```
+4. Configure the folder to be cloned, in this case _ros2_ws_.
+   ```bash
+   git sparse-checkout set ros2_ws
+   ```
+5. Checkout from the _main_ branch to download the selected files.
+   ```bash
+   git checkout main
+   ```
 
 ## SETUP: Environment_tiago
 For the gazebo simulation environment with TIAGo integrated in it we rely on the work of Francisco Rico, who previously worked with a Gazebo simulation with TIAGo, so we will explain the construction of his project on our devices and how to link it with our 3D transformation project. 
