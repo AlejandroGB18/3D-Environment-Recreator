@@ -20,7 +20,10 @@ When you have finally installed Gazebo on your device, a hidden folder _.gazebo_
 
 The model folder is the one we are interested, in it we will put the models from the repository folder _Gazebo_models_ (it contains the models for: **apple**, **can** and **coffee**). If you doing this, you can use the 3D models in gazebo.
 
-## SETUP: Ros2_ws
+## SETUPS
+The following is a description of how to set up the working environments for the TIAGo simulation packages in Gazebo and the package developed for the 3D transformation. The order of creation of each one is indistinct, however, the execution of these packages has a specific order, which we will discuss later in the run section.
+
+### SETUP: Ros2_ws
 To generate the workspace with the 3D Transformation package on your device, it is quite simple. Since we don't need to create anything from scratch, and using GitHub commands, the process will be as follows:
 
 1. Create a workspace with a _src_ directory.
