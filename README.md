@@ -15,18 +15,21 @@ As you can see, we have three folders: **_Gazebo_models_**, **_environment_tiago
 
 ## Installation guide for Azure Kinect Sensor SDK
 This brief guide is based on the work of Sandy Huang who in a [blog post](https://medium.com/@asandy520/how-to-use-python-to-run-kinect-azure-dk-on-ubuntu-22-04-7c323442c84b) explains how to use the _Azure Kinect Sensor SDK_, which officially only supports _Ubuntu 18.04_, but can be used for _Ubuntu 22.04_ through the following installation:
+
 1. Install the necessary dependencies using the following commands.
    ```bash
    sudo apt-get update
    sudo apt install -y libgl1-mesa-dev libsoundio-dev libvulkan-dev libx11-dev libxcursor-dev libxinerama-dev libxrandr-dev libusb-1.0-0-dev libssl-dev libudev-dev mesa-common-dev uuid-dev
    pip install numpy opencv-python
    ```
+   
 2. Download the necessary _.deb_ packages, these allow us to access specific camera functions. For the functions of our experiment, it is necessary to install the following ones:
    * [k4a-tools_1.4.1](https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/k/k4a-tools/k4a-tools_1.4.1_amd64.deb) - _Command line tools to interact with Azure Kinect devices_.
    * [libk4a1.4](https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/libk4a1.4/libk4a1.4_1.4.1_amd64.deb) - _Azure Kinect Sensor SDK core library that allows interacting with the camera from developed applications_.
    * [libk4a1.4-dev](https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/libk4a1.4-dev/libk4a1.4-dev_1.4.1_amd64.deb) - _Provides the development files for compiling applications using the libk4a1.4 library_.
    * [libk4abt1.1](https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/libk4abt1.1/libk4abt1.1_1.1.1_amd64.deb) - _Library for body tracking with Azure Kinect_.
    * [libk4abt1.1-dev](https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/libk4abt1.1-dev/libk4abt1.1-dev_1.1.1_amd64.deb) - _Provides the development files needed to compile applications using the libk4abt1.1 library_
+   * 
 3. Place the _.deb_ files in the _\home_ directory. Once there, install the packages:
    ```bash
    sudo dpkg -i libk4a1.4-dev_1.4.1_amd64.deb
@@ -35,6 +38,7 @@ This brief guide is based on the work of Sandy Huang who in a [blog post](https:
    sudo dpkg -i libk4abt1.1-dev_1.1.1_amd64.deb
    sudo dpkg -i libk4abt1.1_1.1.1_amd64.deb
    ```
+   
 4. On Linux, the device should automatically load all drivers when attached. However, to use the Azure Kinect SDK without being ‘root’, you need to set up udev rules:
    * Clone Azure-Kinect-Sensor-SDK
    * Copy scripts/99-k4a.rules into /etc/udev/rules.d/
@@ -43,6 +47,7 @@ This brief guide is based on the work of Sandy Huang who in a [blog post](https:
      cd Azure-Kinect-Sensor-SDK
      sudo cp scripts/99-k4a.rules /etc/udev/rules.d/
      ```
+     
    * Detach and reattach Azure Kinect devices if they were attached during this process.
 5. Once completed, the Azure Kinect camera is available, check it out.
    ```bash
