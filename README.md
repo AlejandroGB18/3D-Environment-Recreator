@@ -164,8 +164,7 @@ After its execution a tab with rviz with the topicals to the _point cloud_ and t
 
 <div align="center">
   <a href="https://youtu.be/QFFMCqCtOJQ">
-    <img src="https://github.com/user-attachments/assets/66631212-dbd0-4d0a-9cd5-c3c3e125295b" alt="3D_Transform" width="500">
+    <img src="https://github.com/user-attachments/assets/c20baaad-eeb6-4159-b7de-1d5c408adf19" alt="3D_transform" width="500">
   </a>
 </div>
-
 
