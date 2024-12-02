@@ -108,7 +108,7 @@ Below is indicated how to run each one.
    ```
    
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e4a21cee-1c9f-4784-92de-2fb471cc9bf7" alt="gazebo_demostration.webm" width="500">
+  <img src="https://github.com/user-attachments/assets/e4a21cee-1c9f-4784-92de-2fb471cc9bf7" alt="gazebo_demostration" width="500">
 </div>
 
 
