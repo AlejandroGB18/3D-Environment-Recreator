@@ -10,10 +10,11 @@ As you can see, we have three folders: **_Gazebo_models_**, **_environment_tiago
 * Ubuntu Systems (NOTE: This project was developed for Ubuntu 22.04 (Jammy), I recommend installing this version to reduce the existing incompatibilities in Ubuntu 24.04 (Noble) for the time being).
 * ROS 2 - Humble. [How to install ROS 2?](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
 * Gazebo Classic. [How to install Gazebo?](https://gazebosim.org/docs/harmonic/ros_installation/)
+* Azure Kinext Camera.
 * Install Azure Kinect Sensor SDK.
 * Install pyKinectAzure.
 
-## Installation guide for Azure Kinect Sensor SDK
+## Installation guide for Azure Kinect Sensor SDK for Ubuntu 22.04
 This brief guide is based on the work of Sandy Huang who in a [blog post](https://medium.com/@asandy520/how-to-use-python-to-run-kinect-azure-dk-on-ubuntu-22-04-7c323442c84b) explains how to use the _Azure Kinect Sensor SDK_, which officially only supports _Ubuntu 18.04_, but can be used for _Ubuntu 22.04_ through the following installation:
 
 1. Install the necessary dependencies using the following commands.
@@ -29,7 +30,7 @@ This brief guide is based on the work of Sandy Huang who in a [blog post](https:
    * [libk4a1.4-dev](https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/libk4a1.4-dev/libk4a1.4-dev_1.4.1_amd64.deb) - _Provides the development files for compiling applications using the libk4a1.4 library_.
    * [libk4abt1.1](https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/libk4abt1.1/libk4abt1.1_1.1.1_amd64.deb) - _Library for body tracking with Azure Kinect_.
    * [libk4abt1.1-dev](https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/libk/libk4abt1.1-dev/libk4abt1.1-dev_1.1.1_amd64.deb) - _Provides the development files needed to compile applications using the libk4abt1.1 library_
-   * 
+     
 3. Place the _.deb_ files in the _\home_ directory. Once there, install the packages:
    ```bash
    sudo dpkg -i libk4a1.4-dev_1.4.1_amd64.deb
@@ -55,6 +56,27 @@ This brief guide is based on the work of Sandy Huang who in a [blog post](https:
    ```
      
 ## Installation guide for pyKinectAzure
+1. Once all the tools for the Azure Kinect SDK (seen in the previous section) are installed, we can install the pyKinectAzure library. This library lets you use the Kinect Azure DK with Python.
+   ```bash
+   git clone https://github.com/ibaiGorordo/pyKinectAzure.git
+   ```
+
+2. Navigate to the cloned folder and install the required dependencies.
+   ```bash
+   cd pyKinectAzure
+   pip install -r requirements.txt
+   ```
+   
+3. Install the package.
+   ```bash
+   python3 setup.py install
+   ```
+
+4. Now going to the examples folder, let's run one of them to check the correct installation and operation of the Python library, for example, we will run the example _exampleDepthImage.py_.
+   ```bash
+   cd pyKinectAzure/examples
+   python3 exampleDepthImage.py
+   ```
 
 ## SETUP: Gazebo_models
 When you have finally installed Gazebo on your device, a hidden folder _.gazebo_ will be created. This folder is located in \home and may contain the following folders:
