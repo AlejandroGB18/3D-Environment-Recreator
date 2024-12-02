@@ -14,6 +14,15 @@ As you can see, we have three folders: **_Gazebo_models_**, **_environment_tiago
 * Install pyKinectAzure.
 
 ## Installation guide for Azure Kinect Sensor SDK
+This brief guide is based on the work of Sandy Huang who in a [blog post](https://medium.com/@asandy520/how-to-use-python-to-run-kinect-azure-dk-on-ubuntu-22-04-7c323442c84b) explains how to use the _Azure Kinect Sensor SDK_, which officially only supports _Ubuntu 18.04_, but can be used for _Ubuntu 22.04_ through the following installation:
+1. Install the necessary dependencies using the following commands.
+   ```bash
+   sudo apt-get update
+   sudo apt install -y libgl1-mesa-dev libsoundio-dev libvulkan-dev libx11-dev libxcursor-dev libxinerama-dev libxrandr-dev libusb-1.0-0-dev libssl-dev libudev-dev mesa-common-dev uuid-dev
+   pip install numpy opencv-python
+   ```
+2. Download the necessary _.deb_ packages from the official repositories, these allow us to access specific camera functions. For the functions of our experiment, it is necessary to install the following ones:
+   
 
 ## Installation guide for pyKinectAzure
 
