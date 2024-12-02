@@ -9,7 +9,13 @@ As you can see, we have three folders: **_Gazebo_models_**, **_environment_tiago
 ## Requirements
 * Ubuntu Systems (NOTE: This project was developed for Ubuntu 22.04 (Jammy), I recommend installing this version to reduce the existing incompatibilities in Ubuntu 24.04 (Noble) for the time being).
 * ROS 2 - Humble. [How to install ROS 2?](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html)
-* Gazebo Classic.
+* Gazebo Classic. [How to install Gazebo?](https://gazebosim.org/docs/harmonic/ros_installation/)
+* Install Azure Kinect Sensor SDK.
+* Install pyKinectAzure.
+
+## Installation guide for Azure Kinect Sensor SDK
+
+## Installation guide for pyKinectAzure
 
 ## SETUP: Gazebo_models
 When you have finally installed Gazebo on your device, a hidden folder _.gazebo_ will be created. This folder is located in \home and may contain the following folders:
