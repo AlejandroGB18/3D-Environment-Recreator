@@ -108,8 +108,9 @@ Below is indicated how to run each one.
    ```
    
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/1c33b8dd-620e-44d1-a6c0-5093494aa45d" alt="gazebo" width="500">
+  <img src="https://github.com/user-attachments/assets/e4a21cee-1c9f-4784-92de-2fb471cc9bf7" alt="gazebo_demostration.webm" width="500">
 </div>
+
 
 ### RUN: ros2_ws
 
