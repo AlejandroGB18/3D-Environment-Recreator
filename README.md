@@ -106,9 +106,10 @@ Below is indicated how to run each one.
    ```bash
    ros2 launch br2_tiago sim.launch.py is_public_sim:=True
    ```
-   
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e4a21cee-1c9f-4784-92de-2fb471cc9bf7" alt="gazebo_demostration" width="500">
+  <a href="https://youtu.be/x29LwgAedmQ">
+    <img src="https://github.com/user-attachments/assets/2e972ba3-3366-42ae-8dea-ab4e47631758" alt="gazebo" width="500">
+  </a>
 </div>
 
 
