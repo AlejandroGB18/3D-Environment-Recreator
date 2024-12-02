@@ -163,7 +163,7 @@ With the Gazebo environment generated and working, it is now necessary to initia
 After its execution a tab with rviz with the topicals to the _point cloud_ and to the _yolo node_, to see the latter, select again the image checkbox at the end of the display list. Below is how the launch execution looks like.
 
 <div align="center">
-  <a href="https://youtu.be/QFFMCqCtOJQ">
+  <a href="https://youtu.be/Zb5FdgFg_yQ">
     <img src="https://github.com/user-attachments/assets/c20baaad-eeb6-4159-b7de-1d5c408adf19" alt="3D_transform" width="500">
   </a>
 </div>
