@@ -125,7 +125,20 @@ A video demonstration of how to do this is below.
   </a>
 </div>
 
+#### TIAGo Grasping
+1. To move the TIAGo arm in the simulation, you need in a new tab linked to the workspace to rebuild and activate the packages followed by the launch to moveit.
+   ```bash
+   colcon build
+   source install/setup.bash
+   ros2 launch tiago_moveit_config moveit_rviz.launch.py
+   ```
+A video demonstration of how to do this is below.
 
+<div align="center">
+  <a href="https://youtu.be/QFFMCqCtOJQ">
+    <img src="https://github.com/user-attachments/assets/20abc207-b55c-4d22-9c68-e24015e13331" alt="grasping_video" width="500">
+  </a>
+</div>
 
 
 
