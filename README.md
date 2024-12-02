@@ -108,9 +108,24 @@ Below is indicated how to run each one.
    ```
 <div align="center">
   <a href="https://youtu.be/x29LwgAedmQ">
-    <img src="https://github.com/user-attachments/assets/2bb27509-8756-4f74-ad18-8c463526727e" alt="gazebo_video" width="700">
+    <img src="https://github.com/user-attachments/assets/2bb27509-8756-4f74-ad18-8c463526727e" alt="gazebo_video" width="500">
   </a>
-</div>!
+</div>
+
+#### TIAGo Teleoperation
+1. In order to move the TIAGo in the simulation, in a new window linked to the working environment you must execute the following line.
+   ```bash
+   ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r cmd_vel:=key_vel
+   ```
+A video demonstration of how to do this is below.
+
+<div align="center">
+  <a href="https://youtu.be/YGhs_Fo3G1w">
+    <img src="https://github.com/user-attachments/assets/7e325336-c7cb-43cf-94aa-454a6869c8e9" alt="teleop_video" width="500">
+  </a>
+</div>
+
+
 
 
 
