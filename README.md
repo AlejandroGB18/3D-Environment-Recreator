@@ -140,9 +140,7 @@ A video demonstration of how to do this is below.
   </a>
 </div>
 
-
-
-
+With these three nodes running you can interact with the TIAGo robot in the simulation, this is the first step to be able to run the 3D reconstruction, now we will need the next part: the transformation node.
 
 ### RUN: ros2_ws
 
