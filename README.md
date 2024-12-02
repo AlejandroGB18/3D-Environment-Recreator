@@ -108,9 +108,12 @@ Below is indicated how to run each one.
    ```
 <div align="center">
   <a href="https://youtu.be/x29LwgAedmQ">
-    <img src="https://github.com/user-attachments/assets/2e972ba3-3366-42ae-8dea-ab4e47631758" alt="gazebo" width="500">
+    <img src="https://github.com/user-attachments/assets/2bb27509-8756-4f74-ad18-8c463526727e" alt="gazebo_video" width="700">
   </a>
-</div>
+</div>!
+
+
+
 
 
 ### RUN: ros2_ws
