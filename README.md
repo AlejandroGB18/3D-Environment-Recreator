@@ -95,7 +95,7 @@ Below is indicated how to run each one.
 #### Running the Gazebo environment
 1. Use the environment created for the simulation and build the workspace.
    ```bash
-   cd ~/environment_tiago
+   cd environment_tiago
    colcon build
    ```
 2. Activate the worspace to be able to use the packages.
@@ -140,8 +140,32 @@ A video demonstration of how to do this is below.
   </a>
 </div>
 
+
 With these three nodes running you can interact with the TIAGo robot in the simulation, this is the first step to be able to run the 3D reconstruction, now we will need the next part: the transformation node.
 
 ### RUN: ros2_ws
+
+With the Gazebo environment generated and working, it is now necessary to initialize the second part for the operation of the transformation and interaction in simulation, for which we need to run the corresponding launch in the workspace of the 3D Transformation node. For this. follow the next steps:
+1. Use the environment created for the simulation and build the workspace.
+   ```bash
+   cd ros2_ws
+   colcon build
+   ```
+2. Activate the worspace to be able to use the packages.
+   ```bash
+   source install/setup.bash
+   ```
+3. Once activated, run the launch file.
+   ```bash
+   ros2 launch py_kinect_azure_pkg 3D_transformation.launch.py
+   ```
+
+After its execution a tab with rviz with the topicals to the _point cloud_ and to the _yolo node_, to see the latter, select again the image checkbox at the end of the display list. Below is how the launch execution looks like.
+
+<div align="center">
+  <a href="https://youtu.be/QFFMCqCtOJQ">
+    <img src="https://github.com/user-attachments/assets/66631212-dbd0-4d0a-9cd5-c3c3e125295b" alt="3D_Transform" width="500">
+  </a>
+</div>
 
 
